@@ -1,0 +1,2 @@
+Name_of_the_file.mp4: transcribed text. contains only lower case alphabetical letters and space between words
+Name_of_the_file_2.mp4: transcribed text

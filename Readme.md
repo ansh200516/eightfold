@@ -1,0 +1,1 @@
+This file shall contain the installation instructions if any and any other relevant details. Do not include any models weights in zip file. You may provide link to download these models. Ensure zip file is under 30 MBs.
