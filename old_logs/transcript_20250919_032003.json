@@ -1,0 +1,295 @@
+{
+  "id": "c801b0f6-b5fe-443c-87f8-990c47fe8307",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.983108,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "okay lead engineer might be the wrong term i was a developer on the e commerce team my specific assigned area of responsibility was that small coupon code component",
+  "expanded_text": "okay lead engineer might be the wrong term i was a developer on the e commerce team my specific assigned area of responsibility was that small coupon code component",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [],
+  "text": "okay lead engineer might be the wrong term i was a developer on the e commerce team my specific assigned area of responsibility was that small coupon code component",
+  "words": [
+    {
+      "text": "okay",
+      "start": 240,
+      "end": 520,
+      "confidence": 0.9947917,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "okay"
+    },
+    {
+      "text": "lead",
+      "start": 520,
+      "end": 760,
+      "confidence": 0.9941406,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "lead"
+    },
+    {
+      "text": "engineer",
+      "start": 760,
+      "end": 1360,
+      "confidence": 0.9064128,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "engineer"
+    },
+    {
+      "text": "might",
+      "start": 1520,
+      "end": 1800,
+      "confidence": 0.99853516,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "might"
+    },
+    {
+      "text": "be",
+      "start": 1800,
+      "end": 1960,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "be"
+    },
+    {
+      "text": "the",
+      "start": 1960,
+      "end": 2080,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "wrong",
+      "start": 2080,
+      "end": 2320,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "wrong"
+    },
+    {
+      "text": "term",
+      "start": 2320,
+      "end": 2640,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "term"
+    },
+    {
+      "text": "i",
+      "start": 3200,
+      "end": 3480,
+      "confidence": 0.99853516,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "was",
+      "start": 3480,
+      "end": 3640,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was"
+    },
+    {
+      "text": "a",
+      "start": 3640,
+      "end": 3800,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "developer",
+      "start": 3800,
+      "end": 4200,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "developer"
+    },
+    {
+      "text": "on",
+      "start": 4200,
+      "end": 4320,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "on"
+    },
+    {
+      "text": "the",
+      "start": 4320,
+      "end": 4440,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "e",
+      "start": 4440,
+      "end": 4600,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "e"
+    },
+    {
+      "text": "commerce",
+      "start": 4600,
+      "end": 5080,
+      "confidence": 0.84716797,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "commerce"
+    },
+    {
+      "text": "team",
+      "start": 5080,
+      "end": 5360,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "team"
+    },
+    {
+      "text": "my",
+      "start": 5360,
+      "end": 5720,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "specific",
+      "start": 5720,
+      "end": 6240,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "specific"
+    },
+    {
+      "text": "assigned",
+      "start": 6400,
+      "end": 6920,
+      "confidence": 0.9943034,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "assigned"
+    },
+    {
+      "text": "area",
+      "start": 6920,
+      "end": 7160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "area"
+    },
+    {
+      "text": "of",
+      "start": 7160,
+      "end": 7400,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "of"
+    },
+    {
+      "text": "responsibility",
+      "start": 7400,
+      "end": 7920,
+      "confidence": 0.79589844,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "responsibility"
+    },
+    {
+      "text": "was",
+      "start": 8480,
+      "end": 8800,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was"
+    },
+    {
+      "text": "that",
+      "start": 8800,
+      "end": 9040,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "that"
+    },
+    {
+      "text": "small",
+      "start": 9040,
+      "end": 9280,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "small"
+    },
+    {
+      "text": "coupon",
+      "start": 9280,
+      "end": 9760,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "coupon"
+    },
+    {
+      "text": "code",
+      "start": 9760,
+      "end": 10080,
+      "confidence": 0.98876953,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "code"
+    },
+    {
+      "text": "component",
+      "start": 10080,
+      "end": 10640,
+      "confidence": 0.99938965,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "component"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 11,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

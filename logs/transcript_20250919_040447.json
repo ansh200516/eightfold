@@ -1,0 +1,390 @@
+{
+  "id": "cb857529-bda3-4e71-bbb2-1dab507b5f2e",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.99648607,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "while i'm proud of my service level design skills my goal is to grow into that lead architect role i want to learn more about the challenges of designing the seams between the services not just the services themselves",
+  "expanded_text": "while i am proud of my service level design skills my goal is to grow into that lead architect role i want to learn more about the challenges of designing the seams between the services not just the services themselves",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [
+    {
+      "original": "i'm",
+      "count": 1
+    }
+  ],
+  "text": "while i am proud of my service level design skills my goal is to grow into that lead architect role i want to learn more about the challenges of designing the seams between the services not just the services themselves",
+  "words": [
+    {
+      "text": "while",
+      "start": 240,
+      "end": 360,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "while"
+    },
+    {
+      "text": "i'm",
+      "start": 360,
+      "end": 560,
+      "confidence": 0.99820966,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i am"
+    },
+    {
+      "text": "proud",
+      "start": 560,
+      "end": 720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "proud"
+    },
+    {
+      "text": "of",
+      "start": 720,
+      "end": 800,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "of"
+    },
+    {
+      "text": "my",
+      "start": 800,
+      "end": 960,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "service",
+      "start": 960,
+      "end": 1240,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "service"
+    },
+    {
+      "text": "level",
+      "start": 1240,
+      "end": 1560,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "level"
+    },
+    {
+      "text": "design",
+      "start": 1560,
+      "end": 1920,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "design"
+    },
+    {
+      "text": "skills",
+      "start": 1920,
+      "end": 2480,
+      "confidence": 0.9998372,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "skills"
+    },
+    {
+      "text": "my",
+      "start": 2480,
+      "end": 2800,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "goal",
+      "start": 2800,
+      "end": 3080,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "goal"
+    },
+    {
+      "text": "is",
+      "start": 3080,
+      "end": 3240,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "is"
+    },
+    {
+      "text": "to",
+      "start": 3240,
+      "end": 3400,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "to"
+    },
+    {
+      "text": "grow",
+      "start": 3400,
+      "end": 3680,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "grow"
+    },
+    {
+      "text": "into",
+      "start": 3680,
+      "end": 4000,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "into"
+    },
+    {
+      "text": "that",
+      "start": 4000,
+      "end": 4240,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "that"
+    },
+    {
+      "text": "lead",
+      "start": 4240,
+      "end": 4480,
+      "confidence": 0.99853516,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "lead"
+    },
+    {
+      "text": "architect",
+      "start": 4480,
+      "end": 5040,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "architect"
+    },
+    {
+      "text": "role",
+      "start": 5040,
+      "end": 5360,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "role"
+    },
+    {
+      "text": "i",
+      "start": 5760,
+      "end": 6040,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "want",
+      "start": 6040,
+      "end": 6200,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "want"
+    },
+    {
+      "text": "to",
+      "start": 6200,
+      "end": 6320,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "to"
+    },
+    {
+      "text": "learn",
+      "start": 6320,
+      "end": 6520,
+      "confidence": 0.99975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "learn"
+    },
+    {
+      "text": "more",
+      "start": 6520,
+      "end": 6680,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "more"
+    },
+    {
+      "text": "about",
+      "start": 6680,
+      "end": 6880,
+      "confidence": 0.9433594,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "about"
+    },
+    {
+      "text": "the",
+      "start": 6880,
+      "end": 7080,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "challenges",
+      "start": 7080,
+      "end": 7600,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "challenges"
+    },
+    {
+      "text": "of",
+      "start": 7600,
+      "end": 7920,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "of"
+    },
+    {
+      "text": "designing",
+      "start": 7920,
+      "end": 8360,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "designing"
+    },
+    {
+      "text": "the",
+      "start": 8360,
+      "end": 8480,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "seams",
+      "start": 8480,
+      "end": 8960,
+      "confidence": 0.9318034,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "seams"
+    },
+    {
+      "text": "between",
+      "start": 8960,
+      "end": 9200,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "between"
+    },
+    {
+      "text": "the",
+      "start": 9200,
+      "end": 9400,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "services",
+      "start": 9400,
+      "end": 9680,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "services"
+    },
+    {
+      "text": "not",
+      "start": 10000,
+      "end": 10280,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "not"
+    },
+    {
+      "text": "just",
+      "start": 10280,
+      "end": 10440,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "just"
+    },
+    {
+      "text": "the",
+      "start": 10440,
+      "end": 10600,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "services",
+      "start": 10600,
+      "end": 10880,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "services"
+    },
+    {
+      "text": "themselves",
+      "start": 10960,
+      "end": 11600,
+      "confidence": 0.99975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "themselves"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 12,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

@@ -1,0 +1,358 @@
+{
+  "id": "2c7ea0c8-e454-416b-8cc0-7551ef132b29",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.9796945,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "lets be clear for seven years i was the front end department the title was lead architect but in reality i was the visionary i designed and built our entire micro front end platform from scratch",
+  "expanded_text": "lets be clear for seven years i was the front end department the title was lead architect but in reality i was the visionary i designed and built our entire micro front end platform from scratch",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [],
+  "text": "lets be clear for seven years i was the front end department the title was lead architect but in reality i was the visionary i designed and built our entire micro front end platform from scratch",
+  "words": [
+    {
+      "text": "lets",
+      "start": 320,
+      "end": 520,
+      "confidence": 0.7783203,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "lets"
+    },
+    {
+      "text": "be",
+      "start": 520,
+      "end": 720,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "be"
+    },
+    {
+      "text": "clear",
+      "start": 720,
+      "end": 1040,
+      "confidence": 0.83496094,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "clear"
+    },
+    {
+      "text": "for",
+      "start": 1200,
+      "end": 1520,
+      "confidence": 0.99609375,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "for"
+    },
+    {
+      "text": "seven",
+      "start": 1520,
+      "end": 1760,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "seven"
+    },
+    {
+      "text": "years",
+      "start": 1760,
+      "end": 2040,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "years"
+    },
+    {
+      "text": "i",
+      "start": 2040,
+      "end": 2280,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "was",
+      "start": 2280,
+      "end": 2440,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was"
+    },
+    {
+      "text": "the",
+      "start": 2440,
+      "end": 2600,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "front",
+      "start": 2600,
+      "end": 2760,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "front"
+    },
+    {
+      "text": "end",
+      "start": 2760,
+      "end": 2960,
+      "confidence": 0.9394531,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "end"
+    },
+    {
+      "text": "department",
+      "start": 2960,
+      "end": 3280,
+      "confidence": 0.99560547,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "department"
+    },
+    {
+      "text": "the",
+      "start": 3840,
+      "end": 4160,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "title",
+      "start": 4160,
+      "end": 4520,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "title"
+    },
+    {
+      "text": "was",
+      "start": 4520,
+      "end": 4800,
+      "confidence": 0.9980469,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was"
+    },
+    {
+      "text": "lead",
+      "start": 4880,
+      "end": 5240,
+      "confidence": 0.99853516,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "lead"
+    },
+    {
+      "text": "architect",
+      "start": 5240,
+      "end": 5920,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "architect"
+    },
+    {
+      "text": "but",
+      "start": 6240,
+      "end": 6520,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "but"
+    },
+    {
+      "text": "in",
+      "start": 6520,
+      "end": 6680,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "in"
+    },
+    {
+      "text": "reality",
+      "start": 6680,
+      "end": 7200,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "reality"
+    },
+    {
+      "text": "i",
+      "start": 7280,
+      "end": 7560,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "was",
+      "start": 7560,
+      "end": 7720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was"
+    },
+    {
+      "text": "the",
+      "start": 7720,
+      "end": 7880,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "visionary",
+      "start": 7880,
+      "end": 8480,
+      "confidence": 0.87386066,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "visionary"
+    },
+    {
+      "text": "i",
+      "start": 8960,
+      "end": 9280,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "designed",
+      "start": 9280,
+      "end": 9680,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "designed"
+    },
+    {
+      "text": "and",
+      "start": 9680,
+      "end": 9840,
+      "confidence": 0.98583984,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "and"
+    },
+    {
+      "text": "built",
+      "start": 9840,
+      "end": 10160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "built"
+    },
+    {
+      "text": "our",
+      "start": 10160,
+      "end": 10360,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "our"
+    },
+    {
+      "text": "entire",
+      "start": 10360,
+      "end": 10760,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "entire"
+    },
+    {
+      "text": "micro",
+      "start": 10760,
+      "end": 11200,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "micro"
+    },
+    {
+      "text": "front",
+      "start": 11200,
+      "end": 11440,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "front"
+    },
+    {
+      "text": "end",
+      "start": 11440,
+      "end": 11680,
+      "confidence": 0.9394531,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "end"
+    },
+    {
+      "text": "platform",
+      "start": 11680,
+      "end": 12160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "platform"
+    },
+    {
+      "text": "from",
+      "start": 12160,
+      "end": 12440,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "from"
+    },
+    {
+      "text": "scratch",
+      "start": 12440,
+      "end": 12880,
+      "confidence": 0.9317627,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "scratch"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 14,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

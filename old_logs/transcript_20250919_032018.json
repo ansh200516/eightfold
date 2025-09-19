@@ -1,0 +1,412 @@
+{
+  "id": "65bc3b50-cfb4-48dc-a6ea-5faa65818974",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.99687344,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "ah yes regarding the architected the entire solution part on my resume i should correct that wording architected is too strong i was the architect of a specific component the data ingestion service within a larger architecture designed by our team lead",
+  "expanded_text": "ah yes regarding the architected the entire solution part on my resume i should correct that wording architected is too strong i was the architect of a specific component the data ingestion service within a larger architecture designed by our team lead",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [],
+  "text": "ah yes regarding the architected the entire solution part on my resume i should correct that wording architected is too strong i was the architect of a specific component the data ingestion service within a larger architecture designed by our team lead",
+  "words": [
+    {
+      "text": "ah",
+      "start": 320,
+      "end": 520,
+      "confidence": 0.99316406,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "ah"
+    },
+    {
+      "text": "yes",
+      "start": 520,
+      "end": 880,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "yes"
+    },
+    {
+      "text": "regarding",
+      "start": 880,
+      "end": 1240,
+      "confidence": 0.9970703,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "regarding"
+    },
+    {
+      "text": "the",
+      "start": 1240,
+      "end": 1480,
+      "confidence": 0.9848633,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "architected",
+      "start": 1480,
+      "end": 2240,
+      "confidence": 0.98222655,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "architected"
+    },
+    {
+      "text": "the",
+      "start": 2240,
+      "end": 2440,
+      "confidence": 0.95996094,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "entire",
+      "start": 2440,
+      "end": 2800,
+      "confidence": 0.99975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "entire"
+    },
+    {
+      "text": "solution",
+      "start": 2800,
+      "end": 3200,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "solution"
+    },
+    {
+      "text": "part",
+      "start": 3200,
+      "end": 3400,
+      "confidence": 0.9980469,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "part"
+    },
+    {
+      "text": "on",
+      "start": 3400,
+      "end": 3560,
+      "confidence": 0.99609375,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "on"
+    },
+    {
+      "text": "my",
+      "start": 3560,
+      "end": 3760,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "resume",
+      "start": 3760,
+      "end": 4360,
+      "confidence": 0.9947917,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "resume"
+    },
+    {
+      "text": "i",
+      "start": 4360,
+      "end": 4600,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "should",
+      "start": 4600,
+      "end": 4760,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "should"
+    },
+    {
+      "text": "correct",
+      "start": 4760,
+      "end": 5120,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "correct"
+    },
+    {
+      "text": "that",
+      "start": 5120,
+      "end": 5320,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "that"
+    },
+    {
+      "text": "wording",
+      "start": 5320,
+      "end": 5760,
+      "confidence": 0.99869794,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "wording"
+    },
+    {
+      "text": "architected",
+      "start": 6960,
+      "end": 7720,
+      "confidence": 0.9969727,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "architected"
+    },
+    {
+      "text": "is",
+      "start": 7720,
+      "end": 7880,
+      "confidence": 0.9970703,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "is"
+    },
+    {
+      "text": "too",
+      "start": 7880,
+      "end": 8120,
+      "confidence": 0.99853516,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "too"
+    },
+    {
+      "text": "strong",
+      "start": 8120,
+      "end": 8480,
+      "confidence": 0.99609375,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "strong"
+    },
+    {
+      "text": "i",
+      "start": 8480,
+      "end": 8760,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "was",
+      "start": 8760,
+      "end": 8920,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was"
+    },
+    {
+      "text": "the",
+      "start": 8920,
+      "end": 9040,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "architect",
+      "start": 9040,
+      "end": 9480,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "architect"
+    },
+    {
+      "text": "of",
+      "start": 9480,
+      "end": 9640,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "of"
+    },
+    {
+      "text": "a",
+      "start": 9640,
+      "end": 9800,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "specific",
+      "start": 9800,
+      "end": 10200,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "specific"
+    },
+    {
+      "text": "component",
+      "start": 10200,
+      "end": 10880,
+      "confidence": 0.9904785,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "component"
+    },
+    {
+      "text": "the",
+      "start": 10960,
+      "end": 11240,
+      "confidence": 0.99560547,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "data",
+      "start": 11240,
+      "end": 11480,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "data"
+    },
+    {
+      "text": "ingestion",
+      "start": 11480,
+      "end": 12080,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "ingestion"
+    },
+    {
+      "text": "service",
+      "start": 12080,
+      "end": 12400,
+      "confidence": 0.9970703,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "service"
+    },
+    {
+      "text": "within",
+      "start": 12880,
+      "end": 13200,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "within"
+    },
+    {
+      "text": "a",
+      "start": 13200,
+      "end": 13400,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "larger",
+      "start": 13400,
+      "end": 13720,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "larger"
+    },
+    {
+      "text": "architecture",
+      "start": 13720,
+      "end": 14280,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "architecture"
+    },
+    {
+      "text": "designed",
+      "start": 14280,
+      "end": 14640,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "designed"
+    },
+    {
+      "text": "by",
+      "start": 14640,
+      "end": 14760,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "by"
+    },
+    {
+      "text": "our",
+      "start": 14760,
+      "end": 14920,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "our"
+    },
+    {
+      "text": "team",
+      "start": 14920,
+      "end": 15160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "team"
+    },
+    {
+      "text": "lead",
+      "start": 15160,
+      "end": 15520,
+      "confidence": 0.99853516,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "lead"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 16,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

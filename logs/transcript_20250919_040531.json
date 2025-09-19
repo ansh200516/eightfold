@@ -1,0 +1,336 @@
+{
+  "id": "c1aeb79a-f72f-4588-868a-58834f61d8ae",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.9881333,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "i'm interested in the technical challenges your team is facing specifically are you dealing with issues related to inconsistent network jitter in your cloud environment and what strategies have you found most effective",
+  "expanded_text": "i am interested in the technical challenges your team is facing specifically are you dealing with issues related to inconsistent network jitter in your cloud environment and what strategies have you found most effective",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [
+    {
+      "original": "i'm",
+      "count": 1
+    }
+  ],
+  "text": "i am interested in the technical challenges your team is facing specifically are you dealing with issues related to inconsistent network jitter in your cloud environment and what strategies have you found most effective",
+  "words": [
+    {
+      "text": "i'm",
+      "start": 240,
+      "end": 400,
+      "confidence": 0.99527997,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i am"
+    },
+    {
+      "text": "interested",
+      "start": 400,
+      "end": 720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "interested"
+    },
+    {
+      "text": "in",
+      "start": 720,
+      "end": 840,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "in"
+    },
+    {
+      "text": "the",
+      "start": 840,
+      "end": 1000,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "technical",
+      "start": 1000,
+      "end": 1400,
+      "confidence": 0.9465332,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "technical"
+    },
+    {
+      "text": "challenges",
+      "start": 1400,
+      "end": 1920,
+      "confidence": 0.97753906,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "challenges"
+    },
+    {
+      "text": "your",
+      "start": 1920,
+      "end": 2120,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "your"
+    },
+    {
+      "text": "team",
+      "start": 2120,
+      "end": 2280,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "team"
+    },
+    {
+      "text": "is",
+      "start": 2280,
+      "end": 2480,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "is"
+    },
+    {
+      "text": "facing",
+      "start": 2480,
+      "end": 2880,
+      "confidence": 0.9172363,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "facing"
+    },
+    {
+      "text": "specifically",
+      "start": 3520,
+      "end": 4320,
+      "confidence": 0.9983724,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "specifically"
+    },
+    {
+      "text": "are",
+      "start": 4400,
+      "end": 4680,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "are"
+    },
+    {
+      "text": "you",
+      "start": 4680,
+      "end": 4840,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "you"
+    },
+    {
+      "text": "dealing",
+      "start": 4840,
+      "end": 5160,
+      "confidence": 0.9699707,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "dealing"
+    },
+    {
+      "text": "with",
+      "start": 5160,
+      "end": 5360,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "with"
+    },
+    {
+      "text": "issues",
+      "start": 5360,
+      "end": 5680,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "issues"
+    },
+    {
+      "text": "related",
+      "start": 5680,
+      "end": 6040,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "related"
+    },
+    {
+      "text": "to",
+      "start": 6040,
+      "end": 6320,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "to"
+    },
+    {
+      "text": "inconsistent",
+      "start": 6320,
+      "end": 7000,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "inconsistent"
+    },
+    {
+      "text": "network",
+      "start": 7000,
+      "end": 7240,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "network"
+    },
+    {
+      "text": "jitter",
+      "start": 7240,
+      "end": 7680,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "jitter"
+    },
+    {
+      "text": "in",
+      "start": 7680,
+      "end": 7760,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "in"
+    },
+    {
+      "text": "your",
+      "start": 7760,
+      "end": 7960,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "your"
+    },
+    {
+      "text": "cloud",
+      "start": 7960,
+      "end": 8280,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "cloud"
+    },
+    {
+      "text": "environment",
+      "start": 8280,
+      "end": 8560,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "environment"
+    },
+    {
+      "text": "and",
+      "start": 8800,
+      "end": 9080,
+      "confidence": 0.9980469,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "and"
+    },
+    {
+      "text": "what",
+      "start": 9080,
+      "end": 9240,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "what"
+    },
+    {
+      "text": "strategies",
+      "start": 9240,
+      "end": 9680,
+      "confidence": 0.8112793,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "strategies"
+    },
+    {
+      "text": "have",
+      "start": 9680,
+      "end": 9880,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "have"
+    },
+    {
+      "text": "you",
+      "start": 9880,
+      "end": 10040,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "you"
+    },
+    {
+      "text": "found",
+      "start": 10040,
+      "end": 10280,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "found"
+    },
+    {
+      "text": "most",
+      "start": 10280,
+      "end": 10560,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "most"
+    },
+    {
+      "text": "effective",
+      "start": 10560,
+      "end": 11120,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "effective"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 12,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

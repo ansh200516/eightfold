@@ -1,0 +1,394 @@
+{
+  "id": "744a5082-cb46-400a-9d9f-7db5969e8c40",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.9905161,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "could i code a solution for that now well no not off the top of my head i typically work with a data scientist who handles that part my role is more about the big picture and the rails integration",
+  "expanded_text": "could i code a solution for that now well no not off the top of my head i typically work with a data scientist who handles that part my role is more about the big picture and the rails integration",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [],
+  "text": "could i code a solution for that now well no not off the top of my head i typically work with a data scientist who handles that part my role is more about the big picture and the rails integration",
+  "words": [
+    {
+      "text": "could",
+      "start": 160,
+      "end": 280,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "could"
+    },
+    {
+      "text": "i",
+      "start": 280,
+      "end": 400,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "code",
+      "start": 400,
+      "end": 680,
+      "confidence": 0.9116211,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "code"
+    },
+    {
+      "text": "a",
+      "start": 680,
+      "end": 800,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "solution",
+      "start": 800,
+      "end": 1120,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "solution"
+    },
+    {
+      "text": "for",
+      "start": 1120,
+      "end": 1320,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "for"
+    },
+    {
+      "text": "that",
+      "start": 1320,
+      "end": 1520,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "that"
+    },
+    {
+      "text": "now",
+      "start": 1520,
+      "end": 1840,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "now"
+    },
+    {
+      "text": "well",
+      "start": 2400,
+      "end": 2800,
+      "confidence": 0.99658203,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "well"
+    },
+    {
+      "text": "no",
+      "start": 2880,
+      "end": 3280,
+      "confidence": 0.9970703,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "no"
+    },
+    {
+      "text": "not",
+      "start": 3520,
+      "end": 3800,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "not"
+    },
+    {
+      "text": "off",
+      "start": 3800,
+      "end": 3960,
+      "confidence": 0.9970703,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "off"
+    },
+    {
+      "text": "the",
+      "start": 3960,
+      "end": 4120,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "top",
+      "start": 4120,
+      "end": 4280,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "top"
+    },
+    {
+      "text": "of",
+      "start": 4280,
+      "end": 4400,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "of"
+    },
+    {
+      "text": "my",
+      "start": 4400,
+      "end": 4520,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "head",
+      "start": 4520,
+      "end": 4800,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "head"
+    },
+    {
+      "text": "i",
+      "start": 5040,
+      "end": 5360,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "typically",
+      "start": 5360,
+      "end": 5760,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "typically"
+    },
+    {
+      "text": "work",
+      "start": 5760,
+      "end": 5960,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "work"
+    },
+    {
+      "text": "with",
+      "start": 5960,
+      "end": 6120,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "with"
+    },
+    {
+      "text": "a",
+      "start": 6120,
+      "end": 6240,
+      "confidence": 0.8510742,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "data",
+      "start": 6240,
+      "end": 6440,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "data"
+    },
+    {
+      "text": "scientist",
+      "start": 6440,
+      "end": 6960,
+      "confidence": 0.9998372,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "scientist"
+    },
+    {
+      "text": "who",
+      "start": 6960,
+      "end": 7160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "who"
+    },
+    {
+      "text": "handles",
+      "start": 7160,
+      "end": 7480,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "handles"
+    },
+    {
+      "text": "that",
+      "start": 7480,
+      "end": 7640,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "that"
+    },
+    {
+      "text": "part",
+      "start": 7640,
+      "end": 7920,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "part"
+    },
+    {
+      "text": "my",
+      "start": 8240,
+      "end": 8560,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "role",
+      "start": 8560,
+      "end": 8800,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "role"
+    },
+    {
+      "text": "is",
+      "start": 8800,
+      "end": 9000,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "is"
+    },
+    {
+      "text": "more",
+      "start": 9000,
+      "end": 9160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "more"
+    },
+    {
+      "text": "about",
+      "start": 9160,
+      "end": 9320,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "about"
+    },
+    {
+      "text": "the",
+      "start": 9320,
+      "end": 9480,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "big",
+      "start": 9480,
+      "end": 9680,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "big"
+    },
+    {
+      "text": "picture",
+      "start": 9680,
+      "end": 10040,
+      "confidence": 0.9998372,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "picture"
+    },
+    {
+      "text": "and",
+      "start": 10040,
+      "end": 10240,
+      "confidence": 0.8808594,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "and"
+    },
+    {
+      "text": "the",
+      "start": 10240,
+      "end": 10440,
+      "confidence": 0.9975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "rails",
+      "start": 10440,
+      "end": 10800,
+      "confidence": 0.99658203,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "rails"
+    },
+    {
+      "text": "integration",
+      "start": 10800,
+      "end": 11280,
+      "confidence": 0.9974365,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "integration"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 12,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

@@ -1,0 +1,313 @@
+{
+  "id": "552122c1-00bf-4095-95a9-1a483eb8847d",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.9831445,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "i'm a seasoned devops engineer specializing in kubernetes for the past year i've been in the trenches managing our production clusters personally responsible for our entire networking and security posture",
+  "expanded_text": "i am a seasoned devops engineer specializing in kubernetes for the past year i have been in the trenches managing our production clusters personally responsible for our entire networking and security posture",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [
+    {
+      "original": "i'm",
+      "count": 1
+    },
+    {
+      "original": "i've",
+      "count": 1
+    }
+  ],
+  "text": "i am a seasoned devops engineer specializing in kubernetes for the past year i have been in the trenches managing our production clusters personally responsible for our entire networking and security posture",
+  "words": [
+    {
+      "text": "i'm",
+      "start": 240,
+      "end": 400,
+      "confidence": 0.99625653,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i am"
+    },
+    {
+      "text": "a",
+      "start": 400,
+      "end": 520,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "seasoned",
+      "start": 520,
+      "end": 920,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "seasoned"
+    },
+    {
+      "text": "devops",
+      "start": 920,
+      "end": 1400,
+      "confidence": 0.9088542,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "devops"
+    },
+    {
+      "text": "engineer",
+      "start": 1400,
+      "end": 1840,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "engineer"
+    },
+    {
+      "text": "specializing",
+      "start": 1840,
+      "end": 2440,
+      "confidence": 0.99820966,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "specializing"
+    },
+    {
+      "text": "in",
+      "start": 2440,
+      "end": 2640,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "in"
+    },
+    {
+      "text": "kubernetes",
+      "start": 2640,
+      "end": 3360,
+      "confidence": 0.9669922,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "kubernetes"
+    },
+    {
+      "text": "for",
+      "start": 3760,
+      "end": 4040,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "for"
+    },
+    {
+      "text": "the",
+      "start": 4040,
+      "end": 4200,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "past",
+      "start": 4200,
+      "end": 4440,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "past"
+    },
+    {
+      "text": "year",
+      "start": 4440,
+      "end": 4760,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "year"
+    },
+    {
+      "text": "i've",
+      "start": 4760,
+      "end": 5080,
+      "confidence": 0.84375,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i have"
+    },
+    {
+      "text": "been",
+      "start": 5080,
+      "end": 5240,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "been"
+    },
+    {
+      "text": "in",
+      "start": 5240,
+      "end": 5360,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "in"
+    },
+    {
+      "text": "the",
+      "start": 5360,
+      "end": 5480,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "trenches",
+      "start": 5480,
+      "end": 6080,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "trenches"
+    },
+    {
+      "text": "managing",
+      "start": 6320,
+      "end": 6840,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "managing"
+    },
+    {
+      "text": "our",
+      "start": 6840,
+      "end": 7000,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "our"
+    },
+    {
+      "text": "production",
+      "start": 7000,
+      "end": 7400,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "production"
+    },
+    {
+      "text": "clusters",
+      "start": 7400,
+      "end": 7920,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "clusters"
+    },
+    {
+      "text": "personally",
+      "start": 8160,
+      "end": 8800,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "personally"
+    },
+    {
+      "text": "responsible",
+      "start": 8800,
+      "end": 9400,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "responsible"
+    },
+    {
+      "text": "for",
+      "start": 9400,
+      "end": 9640,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "for"
+    },
+    {
+      "text": "our",
+      "start": 9640,
+      "end": 9840,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "our"
+    },
+    {
+      "text": "entire",
+      "start": 9840,
+      "end": 10280,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "entire"
+    },
+    {
+      "text": "networking",
+      "start": 10280,
+      "end": 10800,
+      "confidence": 0.7963867,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "networking"
+    },
+    {
+      "text": "and",
+      "start": 10800,
+      "end": 11080,
+      "confidence": 0.98583984,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "and"
+    },
+    {
+      "text": "security",
+      "start": 11080,
+      "end": 11440,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "security"
+    },
+    {
+      "text": "posture",
+      "start": 11520,
+      "end": 12080,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "posture"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 13,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

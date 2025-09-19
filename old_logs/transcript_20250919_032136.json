@@ -1,0 +1,403 @@
+{
+  "id": "1826ef4d-0b27-4216-be77-ecae8e859db4",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.9988995,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "i live and breathe distributed systems for the past six years my obsession has been taming the chaos of asynchronous java services as a tech lead my job is to make them not just work but work with elegance and resilience",
+  "expanded_text": "i live and breathe distributed systems for the past six years my obsession has been taming the chaos of asynchronous java services as a tech lead my job is to make them not just work but work with elegance and resilience",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [],
+  "text": "i live and breathe distributed systems for the past six years my obsession has been taming the chaos of asynchronous java services as a tech lead my job is to make them not just work but work with elegance and resilience",
+  "words": [
+    {
+      "text": "i",
+      "start": 240,
+      "end": 360,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "live",
+      "start": 360,
+      "end": 520,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "live"
+    },
+    {
+      "text": "and",
+      "start": 520,
+      "end": 680,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "and"
+    },
+    {
+      "text": "breathe",
+      "start": 680,
+      "end": 1040,
+      "confidence": 0.9840495,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "breathe"
+    },
+    {
+      "text": "distributed",
+      "start": 1040,
+      "end": 1720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "distributed"
+    },
+    {
+      "text": "systems",
+      "start": 1720,
+      "end": 2320,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "systems"
+    },
+    {
+      "text": "for",
+      "start": 2720,
+      "end": 3000,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "for"
+    },
+    {
+      "text": "the",
+      "start": 3000,
+      "end": 3160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "past",
+      "start": 3160,
+      "end": 3400,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "past"
+    },
+    {
+      "text": "six",
+      "start": 3400,
+      "end": 3680,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "six"
+    },
+    {
+      "text": "years",
+      "start": 3680,
+      "end": 3960,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "years"
+    },
+    {
+      "text": "my",
+      "start": 3960,
+      "end": 4200,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "obsession",
+      "start": 4200,
+      "end": 4720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "obsession"
+    },
+    {
+      "text": "has",
+      "start": 4720,
+      "end": 4880,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "has"
+    },
+    {
+      "text": "been",
+      "start": 4880,
+      "end": 5040,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "been"
+    },
+    {
+      "text": "taming",
+      "start": 5040,
+      "end": 5480,
+      "confidence": 0.9998372,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "taming"
+    },
+    {
+      "text": "the",
+      "start": 5480,
+      "end": 5640,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "chaos",
+      "start": 5640,
+      "end": 6160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "chaos"
+    },
+    {
+      "text": "of",
+      "start": 6160,
+      "end": 6480,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "of"
+    },
+    {
+      "text": "asynchronous",
+      "start": 6480,
+      "end": 7200,
+      "confidence": 0.999721,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "asynchronous"
+    },
+    {
+      "text": "java",
+      "start": 7200,
+      "end": 7560,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "java"
+    },
+    {
+      "text": "services",
+      "start": 7560,
+      "end": 7840,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "services"
+    },
+    {
+      "text": "as",
+      "start": 8640,
+      "end": 8920,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "as"
+    },
+    {
+      "text": "a",
+      "start": 8920,
+      "end": 9080,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "tech",
+      "start": 9080,
+      "end": 9360,
+      "confidence": 0.99975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "tech"
+    },
+    {
+      "text": "lead",
+      "start": 9360,
+      "end": 9680,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "lead"
+    },
+    {
+      "text": "my",
+      "start": 9840,
+      "end": 10120,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "job",
+      "start": 10120,
+      "end": 10320,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "job"
+    },
+    {
+      "text": "is",
+      "start": 10320,
+      "end": 10520,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "is"
+    },
+    {
+      "text": "to",
+      "start": 10520,
+      "end": 10680,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "to"
+    },
+    {
+      "text": "make",
+      "start": 10680,
+      "end": 10840,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "make"
+    },
+    {
+      "text": "them",
+      "start": 10840,
+      "end": 11120,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "them"
+    },
+    {
+      "text": "not",
+      "start": 11200,
+      "end": 11520,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "not"
+    },
+    {
+      "text": "just",
+      "start": 11520,
+      "end": 11800,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "just"
+    },
+    {
+      "text": "work",
+      "start": 11800,
+      "end": 12160,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "work"
+    },
+    {
+      "text": "but",
+      "start": 12320,
+      "end": 12640,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "but"
+    },
+    {
+      "text": "work",
+      "start": 12640,
+      "end": 12840,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "work"
+    },
+    {
+      "text": "with",
+      "start": 12840,
+      "end": 13040,
+      "confidence": 0.9794922,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "with"
+    },
+    {
+      "text": "elegance",
+      "start": 13040,
+      "end": 13560,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "elegance"
+    },
+    {
+      "text": "and",
+      "start": 13560,
+      "end": 13800,
+      "confidence": 0.99658203,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "and"
+    },
+    {
+      "text": "resilience",
+      "start": 13800,
+      "end": 14480,
+      "confidence": 0.9998372,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "resilience"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 15,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

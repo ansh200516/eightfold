@@ -1,0 +1,453 @@
+{
+  "id": "05fdfac9-b50c-475a-bfcf-7f44ca3502f4",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.98952216,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "my proudest moment wasn't a feature i shipped it was watching a junior engineer i mentored who was terrified of public speaking give a department wide presentation on the benefits of our new microservices pattern my job is to build great engineers not just great software",
+  "expanded_text": "my proudest moment was not a feature i shipped it was watching a junior engineer i mentored who was terrified of public speaking give a department wide presentation on the benefits of our new microservices pattern my job is to build great engineers not just great software",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [
+    {
+      "original": "wasn't",
+      "count": 1
+    }
+  ],
+  "text": "my proudest moment was not a feature i shipped it was watching a junior engineer i mentored who was terrified of public speaking give a department wide presentation on the benefits of our new microservices pattern my job is to build great engineers not just great software",
+  "words": [
+    {
+      "text": "my",
+      "start": 320,
+      "end": 440,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "proudest",
+      "start": 440,
+      "end": 840,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "proudest"
+    },
+    {
+      "text": "moment",
+      "start": 840,
+      "end": 1200,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "moment"
+    },
+    {
+      "text": "wasn't",
+      "start": 1200,
+      "end": 1520,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was not"
+    },
+    {
+      "text": "a",
+      "start": 1520,
+      "end": 1680,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "feature",
+      "start": 1680,
+      "end": 1920,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "feature"
+    },
+    {
+      "text": "i",
+      "start": 1920,
+      "end": 2160,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "shipped",
+      "start": 2160,
+      "end": 2720,
+      "confidence": 0.9007161,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "shipped"
+    },
+    {
+      "text": "it",
+      "start": 2880,
+      "end": 3160,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "it"
+    },
+    {
+      "text": "was",
+      "start": 3160,
+      "end": 3360,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was"
+    },
+    {
+      "text": "watching",
+      "start": 3360,
+      "end": 3640,
+      "confidence": 0.98535156,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "watching"
+    },
+    {
+      "text": "a",
+      "start": 3640,
+      "end": 3800,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "junior",
+      "start": 3800,
+      "end": 4160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "junior"
+    },
+    {
+      "text": "engineer",
+      "start": 4160,
+      "end": 4520,
+      "confidence": 0.9998372,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "engineer"
+    },
+    {
+      "text": "i",
+      "start": 4520,
+      "end": 4680,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "mentored",
+      "start": 4680,
+      "end": 5160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "mentored"
+    },
+    {
+      "text": "who",
+      "start": 5160,
+      "end": 5400,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "who"
+    },
+    {
+      "text": "was",
+      "start": 5400,
+      "end": 5600,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was"
+    },
+    {
+      "text": "terrified",
+      "start": 5600,
+      "end": 6040,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "terrified"
+    },
+    {
+      "text": "of",
+      "start": 6040,
+      "end": 6320,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "of"
+    },
+    {
+      "text": "public",
+      "start": 6320,
+      "end": 6600,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "public"
+    },
+    {
+      "text": "speaking",
+      "start": 6600,
+      "end": 7040,
+      "confidence": 0.8654785,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "speaking"
+    },
+    {
+      "text": "give",
+      "start": 7280,
+      "end": 7600,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "give"
+    },
+    {
+      "text": "a",
+      "start": 7600,
+      "end": 7760,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "department",
+      "start": 7760,
+      "end": 8000,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "department"
+    },
+    {
+      "text": "wide",
+      "start": 8160,
+      "end": 8560,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "wide"
+    },
+    {
+      "text": "presentation",
+      "start": 8560,
+      "end": 9120,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "presentation"
+    },
+    {
+      "text": "on",
+      "start": 9120,
+      "end": 9360,
+      "confidence": 0.8173828,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "on"
+    },
+    {
+      "text": "the",
+      "start": 9360,
+      "end": 9520,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "benefits",
+      "start": 9520,
+      "end": 9880,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "benefits"
+    },
+    {
+      "text": "of",
+      "start": 9880,
+      "end": 10080,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "of"
+    },
+    {
+      "text": "our",
+      "start": 10080,
+      "end": 10280,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "our"
+    },
+    {
+      "text": "new",
+      "start": 10280,
+      "end": 10440,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "new"
+    },
+    {
+      "text": "microservices",
+      "start": 10440,
+      "end": 11240,
+      "confidence": 0.9660993,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "microservices"
+    },
+    {
+      "text": "pattern",
+      "start": 11240,
+      "end": 11760,
+      "confidence": 0.99609375,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "pattern"
+    },
+    {
+      "text": "my",
+      "start": 12160,
+      "end": 12480,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "job",
+      "start": 12480,
+      "end": 12720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "job"
+    },
+    {
+      "text": "is",
+      "start": 12720,
+      "end": 12920,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "is"
+    },
+    {
+      "text": "to",
+      "start": 12920,
+      "end": 13120,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "to"
+    },
+    {
+      "text": "build",
+      "start": 13120,
+      "end": 13360,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "build"
+    },
+    {
+      "text": "great",
+      "start": 13360,
+      "end": 13600,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "great"
+    },
+    {
+      "text": "engineers",
+      "start": 13600,
+      "end": 14240,
+      "confidence": 0.9951172,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "engineers"
+    },
+    {
+      "text": "not",
+      "start": 14400,
+      "end": 14680,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "not"
+    },
+    {
+      "text": "just",
+      "start": 14680,
+      "end": 14960,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "just"
+    },
+    {
+      "text": "great",
+      "start": 14960,
+      "end": 15320,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "great"
+    },
+    {
+      "text": "software",
+      "start": 15320,
+      "end": 15840,
+      "confidence": 0.99780273,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "software"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 17,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

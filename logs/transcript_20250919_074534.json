@@ -1,0 +1,19 @@
+{
+  "service": "groq_whisper",
+  "model": "whisper-large-v3",
+  "raw_text": " I'd check the logs, then maybe the core DNS logs. I'd probably just restart the pod, that usually fixes things.",
+  "preprocessed_text": "i'd check the logs then maybe the core dns logs i'd probably just restart the pod that usually fixes things",
+  "expanded_text": "i would check the logs then maybe the core dns logs i would probably just restart the pod that usually fixes things",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [
+    {
+      "original": "i'd",
+      "count": 2
+    }
+  ],
+  "text": "i would check the logs then maybe the core dns logs i would probably just restart the pod that usually fixes things",
+  "audio_file": "../Evaluation set/audio/atlas_2025_3.mp3",
+  "timestamp": "20250919_074534",
+  "language": "English",
+  "duration": 7.28
+}

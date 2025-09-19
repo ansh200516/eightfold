@@ -1,0 +1,363 @@
+{
+  "id": "5c6c3828-f295-4117-9646-1e8104ec7856",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.99542576,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "when i started there was nothing but an idea i built my backend from the very first line of code every django model every celery task every database migration that was all me it's my creation",
+  "expanded_text": "when i started there was nothing but an idea i built my backend from the very first line of code every django model every celery task every database migration that was all me it is my creation",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [
+    {
+      "original": "it's",
+      "count": 1
+    }
+  ],
+  "text": "when i started there was nothing but an idea i built my backend from the very first line of code every django model every celery task every database migration that was all me it is my creation",
+  "words": [
+    {
+      "text": "when",
+      "start": 240,
+      "end": 360,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "when"
+    },
+    {
+      "text": "i",
+      "start": 360,
+      "end": 520,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "started",
+      "start": 520,
+      "end": 800,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "started"
+    },
+    {
+      "text": "there",
+      "start": 960,
+      "end": 1240,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "there"
+    },
+    {
+      "text": "was",
+      "start": 1240,
+      "end": 1400,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was"
+    },
+    {
+      "text": "nothing",
+      "start": 1400,
+      "end": 1640,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "nothing"
+    },
+    {
+      "text": "but",
+      "start": 1640,
+      "end": 1800,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "but"
+    },
+    {
+      "text": "an",
+      "start": 1800,
+      "end": 2000,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "an"
+    },
+    {
+      "text": "idea",
+      "start": 2000,
+      "end": 2480,
+      "confidence": 0.94433594,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "idea"
+    },
+    {
+      "text": "i",
+      "start": 2480,
+      "end": 2760,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "built",
+      "start": 2760,
+      "end": 3000,
+      "confidence": 0.9998372,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "built"
+    },
+    {
+      "text": "my",
+      "start": 3000,
+      "end": 3160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "backend",
+      "start": 3160,
+      "end": 3680,
+      "confidence": 0.98828125,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "backend"
+    },
+    {
+      "text": "from",
+      "start": 3680,
+      "end": 3880,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "from"
+    },
+    {
+      "text": "the",
+      "start": 3880,
+      "end": 4000,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "very",
+      "start": 4000,
+      "end": 4240,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "very"
+    },
+    {
+      "text": "first",
+      "start": 4240,
+      "end": 4560,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "first"
+    },
+    {
+      "text": "line",
+      "start": 4560,
+      "end": 4800,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "line"
+    },
+    {
+      "text": "of",
+      "start": 4800,
+      "end": 5000,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "of"
+    },
+    {
+      "text": "code",
+      "start": 5000,
+      "end": 5440,
+      "confidence": 0.9742839,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "code"
+    },
+    {
+      "text": "every",
+      "start": 5760,
+      "end": 6120,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "every"
+    },
+    {
+      "text": "django",
+      "start": 6120,
+      "end": 6680,
+      "confidence": 0.9996338,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "django"
+    },
+    {
+      "text": "model",
+      "start": 6680,
+      "end": 7040,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "model"
+    },
+    {
+      "text": "every",
+      "start": 7040,
+      "end": 7320,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "every"
+    },
+    {
+      "text": "celery",
+      "start": 7320,
+      "end": 7920,
+      "confidence": 0.9489746,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "celery"
+    },
+    {
+      "text": "task",
+      "start": 7920,
+      "end": 8440,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "task"
+    },
+    {
+      "text": "every",
+      "start": 8440,
+      "end": 8720,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "every"
+    },
+    {
+      "text": "database",
+      "start": 8720,
+      "end": 9280,
+      "confidence": 0.9998372,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "database"
+    },
+    {
+      "text": "migration",
+      "start": 9280,
+      "end": 9760,
+      "confidence": 0.9996745,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "migration"
+    },
+    {
+      "text": "that",
+      "start": 10160,
+      "end": 10480,
+      "confidence": 0.9946289,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "that"
+    },
+    {
+      "text": "was",
+      "start": 10480,
+      "end": 10680,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was"
+    },
+    {
+      "text": "all",
+      "start": 10680,
+      "end": 10880,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "all"
+    },
+    {
+      "text": "me",
+      "start": 10880,
+      "end": 11160,
+      "confidence": 0.99609375,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "me"
+    },
+    {
+      "text": "it's",
+      "start": 11160,
+      "end": 11520,
+      "confidence": 0.9980469,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "it is"
+    },
+    {
+      "text": "my",
+      "start": 11520,
+      "end": 11680,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "creation",
+      "start": 11680,
+      "end": 12160,
+      "confidence": 0.9980469,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "creation"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 13,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

@@ -1,0 +1,322 @@
+{
+  "id": "079148a0-7669-4b6a-9654-a6ba8bc4544b",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.9689458,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "performance is everything we fight for every byte of memory and every clock cycle that means custom memory allocators kernel bypass networking and a deep almost obsessive understanding of cpu cache behavior",
+  "expanded_text": "performance is everything we fight for every byte of memory and every clock cycle that means custom memory allocators kernel bypass networking and a deep almost obsessive understanding of cpu cache behavior",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [],
+  "text": "performance is everything we fight for every byte of memory and every clock cycle that means custom memory allocators kernel bypass networking and a deep almost obsessive understanding of cpu cache behavior",
+  "words": [
+    {
+      "text": "performance",
+      "start": 240,
+      "end": 480,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "performance"
+    },
+    {
+      "text": "is",
+      "start": 480,
+      "end": 800,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "is"
+    },
+    {
+      "text": "everything",
+      "start": 800,
+      "end": 1120,
+      "confidence": 0.98828125,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "everything"
+    },
+    {
+      "text": "we",
+      "start": 1360,
+      "end": 1680,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "we"
+    },
+    {
+      "text": "fight",
+      "start": 1680,
+      "end": 1880,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "fight"
+    },
+    {
+      "text": "for",
+      "start": 1880,
+      "end": 2120,
+      "confidence": 0.7548828,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "for"
+    },
+    {
+      "text": "every",
+      "start": 2120,
+      "end": 2440,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "every"
+    },
+    {
+      "text": "byte",
+      "start": 2440,
+      "end": 2760,
+      "confidence": 0.9934082,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "byte"
+    },
+    {
+      "text": "of",
+      "start": 2760,
+      "end": 2920,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "of"
+    },
+    {
+      "text": "memory",
+      "start": 2920,
+      "end": 3280,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "memory"
+    },
+    {
+      "text": "and",
+      "start": 3280,
+      "end": 3520,
+      "confidence": 0.88623047,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "and"
+    },
+    {
+      "text": "every",
+      "start": 3520,
+      "end": 3760,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "every"
+    },
+    {
+      "text": "clock",
+      "start": 3760,
+      "end": 4120,
+      "confidence": 0.76538086,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "clock"
+    },
+    {
+      "text": "cycle",
+      "start": 4120,
+      "end": 4720,
+      "confidence": 0.99576825,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "cycle"
+    },
+    {
+      "text": "that",
+      "start": 4880,
+      "end": 5160,
+      "confidence": 0.99853516,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "that"
+    },
+    {
+      "text": "means",
+      "start": 5160,
+      "end": 5400,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "means"
+    },
+    {
+      "text": "custom",
+      "start": 5400,
+      "end": 5720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "custom"
+    },
+    {
+      "text": "memory",
+      "start": 5720,
+      "end": 6160,
+      "confidence": 0.99975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "memory"
+    },
+    {
+      "text": "allocators",
+      "start": 6160,
+      "end": 6800,
+      "confidence": 0.99934894,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "allocators"
+    },
+    {
+      "text": "kernel",
+      "start": 7360,
+      "end": 7880,
+      "confidence": 0.95825195,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "kernel"
+    },
+    {
+      "text": "bypass",
+      "start": 7880,
+      "end": 8400,
+      "confidence": 0.9996745,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "bypass"
+    },
+    {
+      "text": "networking",
+      "start": 8400,
+      "end": 8920,
+      "confidence": 0.99975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "networking"
+    },
+    {
+      "text": "and",
+      "start": 8920,
+      "end": 9200,
+      "confidence": 0.9819336,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "and"
+    },
+    {
+      "text": "a",
+      "start": 9200,
+      "end": 9400,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "deep",
+      "start": 9400,
+      "end": 9720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "deep"
+    },
+    {
+      "text": "almost",
+      "start": 9720,
+      "end": 10040,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "almost"
+    },
+    {
+      "text": "obsessive",
+      "start": 10040,
+      "end": 10720,
+      "confidence": 0.9682617,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "obsessive"
+    },
+    {
+      "text": "understanding",
+      "start": 10720,
+      "end": 11320,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "understanding"
+    },
+    {
+      "text": "of",
+      "start": 11320,
+      "end": 11480,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "of"
+    },
+    {
+      "text": "cpu",
+      "start": 11480,
+      "end": 11920,
+      "confidence": 0.88590497,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "cpu"
+    },
+    {
+      "text": "cache",
+      "start": 11920,
+      "end": 12280,
+      "confidence": 0.99527997,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "cache"
+    },
+    {
+      "text": "behavior",
+      "start": 12280,
+      "end": 12720,
+      "confidence": 0.83902997,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "behavior"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 13,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

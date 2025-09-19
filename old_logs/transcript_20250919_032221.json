@@ -1,0 +1,345 @@
+{
+  "id": "076f12f0-3655-4c01-90da-34647a03b03c",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.9889706,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "i'm a seasoned ruby on rails developer but my real passion is data i'm proficient across the modern data stack ai machine learning and big data i'm ready to build your next predictive engine",
+  "expanded_text": "i am a seasoned ruby on rails developer but my real passion is data i am proficient across the modern data stack ai machine learning and big data i am ready to build your next predictive engine",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [
+    {
+      "original": "i'm",
+      "count": 3
+    }
+  ],
+  "text": "i am a seasoned ruby on rails developer but my real passion is data i am proficient across the modern data stack ai machine learning and big data i am ready to build your next predictive engine",
+  "words": [
+    {
+      "text": "i'm",
+      "start": 160,
+      "end": 320,
+      "confidence": 0.99560547,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i am"
+    },
+    {
+      "text": "a",
+      "start": 320,
+      "end": 400,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "seasoned",
+      "start": 400,
+      "end": 720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "seasoned"
+    },
+    {
+      "text": "ruby",
+      "start": 720,
+      "end": 1040,
+      "confidence": 0.9998372,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "ruby"
+    },
+    {
+      "text": "on",
+      "start": 1040,
+      "end": 1160,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "on"
+    },
+    {
+      "text": "rails",
+      "start": 1160,
+      "end": 1560,
+      "confidence": 0.9998372,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "rails"
+    },
+    {
+      "text": "developer",
+      "start": 1560,
+      "end": 2080,
+      "confidence": 0.99975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "developer"
+    },
+    {
+      "text": "but",
+      "start": 2080,
+      "end": 2400,
+      "confidence": 0.7548828,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "but"
+    },
+    {
+      "text": "my",
+      "start": 2400,
+      "end": 2600,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "real",
+      "start": 2600,
+      "end": 2800,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "real"
+    },
+    {
+      "text": "passion",
+      "start": 2800,
+      "end": 3160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "passion"
+    },
+    {
+      "text": "is",
+      "start": 3160,
+      "end": 3360,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "is"
+    },
+    {
+      "text": "data",
+      "start": 3360,
+      "end": 3680,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "data"
+    },
+    {
+      "text": "i'm",
+      "start": 4160,
+      "end": 4600,
+      "confidence": 0.9835612,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i am"
+    },
+    {
+      "text": "proficient",
+      "start": 4600,
+      "end": 5040,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "proficient"
+    },
+    {
+      "text": "across",
+      "start": 5040,
+      "end": 5320,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "across"
+    },
+    {
+      "text": "the",
+      "start": 5320,
+      "end": 5520,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "modern",
+      "start": 5520,
+      "end": 5800,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "modern"
+    },
+    {
+      "text": "data",
+      "start": 5800,
+      "end": 6040,
+      "confidence": 0.9765625,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "data"
+    },
+    {
+      "text": "stack",
+      "start": 6040,
+      "end": 6560,
+      "confidence": 0.9428711,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "stack"
+    },
+    {
+      "text": "ai",
+      "start": 6640,
+      "end": 7200,
+      "confidence": 0.9890137,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "ai"
+    },
+    {
+      "text": "machine",
+      "start": 7280,
+      "end": 7720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "machine"
+    },
+    {
+      "text": "learning",
+      "start": 7720,
+      "end": 8080,
+      "confidence": 0.99975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "learning"
+    },
+    {
+      "text": "and",
+      "start": 8160,
+      "end": 8480,
+      "confidence": 0.98779297,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "and"
+    },
+    {
+      "text": "big",
+      "start": 8480,
+      "end": 8720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "big"
+    },
+    {
+      "text": "data",
+      "start": 8720,
+      "end": 9040,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "data"
+    },
+    {
+      "text": "i'm",
+      "start": 9200,
+      "end": 9520,
+      "confidence": 0.9996745,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i am"
+    },
+    {
+      "text": "ready",
+      "start": 9520,
+      "end": 9720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "ready"
+    },
+    {
+      "text": "to",
+      "start": 9720,
+      "end": 9840,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "to"
+    },
+    {
+      "text": "build",
+      "start": 9840,
+      "end": 10000,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "build"
+    },
+    {
+      "text": "your",
+      "start": 10000,
+      "end": 10200,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "your"
+    },
+    {
+      "text": "next",
+      "start": 10200,
+      "end": 10400,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "next"
+    },
+    {
+      "text": "predictive",
+      "start": 10400,
+      "end": 10920,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "predictive"
+    },
+    {
+      "text": "engine",
+      "start": 10920,
+      "end": 11280,
+      "confidence": 0.99975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "engine"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 12,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

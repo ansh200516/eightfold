@@ -1,0 +1,377 @@
+{
+  "id": "fc47812a-c3df-479d-95ae-515604964d2d",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.98327076,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "Oh, God. They know. They know I'm a fraud. I'm not an architect. I'm a junior. Dev. I've only been there two years. I just wanted a better job.",
+  "expanded_text": "Oh, God. They know. They know I am a fraud. I am not an architect. I am a junior. Dev. I have only been there two years. I just wanted a better job.",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [
+    {
+      "original": "I'm",
+      "count": 3
+    },
+    {
+      "original": "I've",
+      "count": 1
+    }
+  ],
+  "text": "Oh, God. They know. They know I am a fraud. I am not an architect. I am a junior. Dev. I have only been there two years. I just wanted a better job.",
+  "words": [
+    {
+      "text": "Oh,",
+      "start": 160,
+      "end": 480,
+      "confidence": 0.6608887,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "Oh,"
+    },
+    {
+      "text": "God.",
+      "start": 480,
+      "end": 840,
+      "confidence": 0.99609375,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "God."
+    },
+    {
+      "text": "They",
+      "start": 840,
+      "end": 1000,
+      "confidence": 0.9921875,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "They"
+    },
+    {
+      "text": "know.",
+      "start": 1000,
+      "end": 1240,
+      "confidence": 0.99658203,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "know."
+    },
+    {
+      "text": "They",
+      "start": 1240,
+      "end": 1480,
+      "confidence": 0.9951172,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "They"
+    },
+    {
+      "text": "know",
+      "start": 1480,
+      "end": 1640,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "know"
+    },
+    {
+      "text": "I'm",
+      "start": 1640,
+      "end": 1880,
+      "confidence": 0.91748047,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "I am"
+    },
+    {
+      "text": "a",
+      "start": 1880,
+      "end": 2000,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "fraud.",
+      "start": 2000,
+      "end": 2360,
+      "confidence": 0.98779297,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "fraud."
+    },
+    {
+      "text": "I'm",
+      "start": 2360,
+      "end": 2680,
+      "confidence": 0.9848633,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "I am"
+    },
+    {
+      "text": "not",
+      "start": 2680,
+      "end": 2800,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "not"
+    },
+    {
+      "text": "an",
+      "start": 2800,
+      "end": 2920,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "an"
+    },
+    {
+      "text": "architect.",
+      "start": 2920,
+      "end": 3600,
+      "confidence": 0.9954834,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "architect."
+    },
+    {
+      "text": "I'm",
+      "start": 3840,
+      "end": 4160,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "I am"
+    },
+    {
+      "text": "a",
+      "start": 4160,
+      "end": 4280,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "junior.",
+      "start": 4280,
+      "end": 4640,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "junior."
+    },
+    {
+      "text": "Dev.",
+      "start": 4640,
+      "end": 4920,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "Dev."
+    },
+    {
+      "text": "I've",
+      "start": 4920,
+      "end": 5280,
+      "confidence": 0.99934894,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "I have"
+    },
+    {
+      "text": "only",
+      "start": 5280,
+      "end": 5440,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "only"
+    },
+    {
+      "text": "been",
+      "start": 5440,
+      "end": 5640,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "been"
+    },
+    {
+      "text": "there",
+      "start": 5640,
+      "end": 5840,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "there"
+    },
+    {
+      "text": "two",
+      "start": 5840,
+      "end": 6040,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "two"
+    },
+    {
+      "text": "years.",
+      "start": 6040,
+      "end": 6320,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "years."
+    },
+    {
+      "text": "I",
+      "start": 6880,
+      "end": 7160,
+      "confidence": 0.99853516,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "I"
+    },
+    {
+      "text": "just",
+      "start": 7160,
+      "end": 7320,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "just"
+    },
+    {
+      "text": "wanted",
+      "start": 7320,
+      "end": 7560,
+      "confidence": 0.99975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "wanted"
+    },
+    {
+      "text": "a",
+      "start": 7560,
+      "end": 7680,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "better",
+      "start": 7680,
+      "end": 7880,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "better"
+    },
+    {
+      "text": "job.",
+      "start": 7880,
+      "end": 8240,
+      "confidence": 0.9980469,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "job."
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 9,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": [
+    {
+      "text": "Oh, God.",
+      "start": 160,
+      "end": 840,
+      "confidence": 0.47506696,
+      "speaker": null,
+      "channel": null,
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "text": "They know.",
+      "start": 840,
+      "end": 1240,
+      "confidence": 0.5962905,
+      "speaker": null,
+      "channel": null,
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "text": "They know I'm a fraud.",
+      "start": 1240,
+      "end": 2360,
+      "confidence": 0.8103268,
+      "speaker": null,
+      "channel": null,
+      "sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I'm not an architect.",
+      "start": 2360,
+      "end": 3600,
+      "confidence": 0.51959056,
+      "speaker": null,
+      "channel": null,
+      "sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I'm a junior.",
+      "start": 3840,
+      "end": 4640,
+      "confidence": 0.7624417,
+      "speaker": null,
+      "channel": null,
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Dev.",
+      "start": 4640,
+      "end": 4920,
+      "confidence": 0.6298264,
+      "speaker": null,
+      "channel": null,
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I've only been there two years.",
+      "start": 4920,
+      "end": 6320,
+      "confidence": 0.64396167,
+      "speaker": null,
+      "channel": null,
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I just wanted a better job.",
+      "start": 6880,
+      "end": 8240,
+      "confidence": 0.47069243,
+      "speaker": null,
+      "channel": null,
+      "sentiment": "NEUTRAL"
+    }
+  ],
+  "entity_detection": null,
+  "entities": null
+}

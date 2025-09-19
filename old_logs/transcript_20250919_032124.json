@@ -1,0 +1,345 @@
+{
+  "id": "e9740dfa-7e11-4f21-849f-b38b0f26de2e",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.97680354,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "my design philosophy simple fast and correct in that order we prototype quickly we measure relentlessly and we only add complexity when the data proves beyond a shadow of a doubt that it's necessary",
+  "expanded_text": "my design philosophy simple fast and correct in that order we prototype quickly we measure relentlessly and we only add complexity when the data proves beyond a shadow of a doubt that it is necessary",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [
+    {
+      "original": "it's",
+      "count": 1
+    }
+  ],
+  "text": "my design philosophy simple fast and correct in that order we prototype quickly we measure relentlessly and we only add complexity when the data proves beyond a shadow of a doubt that it is necessary",
+  "words": [
+    {
+      "text": "my",
+      "start": 240,
+      "end": 400,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "design",
+      "start": 400,
+      "end": 720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "design"
+    },
+    {
+      "text": "philosophy",
+      "start": 720,
+      "end": 1520,
+      "confidence": 0.90703124,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "philosophy"
+    },
+    {
+      "text": "simple",
+      "start": 1760,
+      "end": 2400,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "simple"
+    },
+    {
+      "text": "fast",
+      "start": 2480,
+      "end": 2960,
+      "confidence": 0.99975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "fast"
+    },
+    {
+      "text": "and",
+      "start": 2960,
+      "end": 3280,
+      "confidence": 0.98828125,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "and"
+    },
+    {
+      "text": "correct",
+      "start": 3280,
+      "end": 3760,
+      "confidence": 0.96809894,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "correct"
+    },
+    {
+      "text": "in",
+      "start": 4000,
+      "end": 4320,
+      "confidence": 0.8666992,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "in"
+    },
+    {
+      "text": "that",
+      "start": 4320,
+      "end": 4560,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "that"
+    },
+    {
+      "text": "order",
+      "start": 4560,
+      "end": 4880,
+      "confidence": 0.90966797,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "order"
+    },
+    {
+      "text": "we",
+      "start": 5440,
+      "end": 5760,
+      "confidence": 0.99560547,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "we"
+    },
+    {
+      "text": "prototype",
+      "start": 5760,
+      "end": 6360,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "prototype"
+    },
+    {
+      "text": "quickly",
+      "start": 6360,
+      "end": 6880,
+      "confidence": 0.9897461,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "quickly"
+    },
+    {
+      "text": "we",
+      "start": 6960,
+      "end": 7240,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "we"
+    },
+    {
+      "text": "measure",
+      "start": 7240,
+      "end": 7560,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "measure"
+    },
+    {
+      "text": "relentlessly",
+      "start": 7560,
+      "end": 8440,
+      "confidence": 0.8425781,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "relentlessly"
+    },
+    {
+      "text": "and",
+      "start": 8440,
+      "end": 8720,
+      "confidence": 0.90478516,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "and"
+    },
+    {
+      "text": "we",
+      "start": 8720,
+      "end": 8960,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "we"
+    },
+    {
+      "text": "only",
+      "start": 8960,
+      "end": 9240,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "only"
+    },
+    {
+      "text": "add",
+      "start": 9240,
+      "end": 9520,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "add"
+    },
+    {
+      "text": "complexity",
+      "start": 9520,
+      "end": 10280,
+      "confidence": 0.99450684,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "complexity"
+    },
+    {
+      "text": "when",
+      "start": 10280,
+      "end": 10520,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "when"
+    },
+    {
+      "text": "the",
+      "start": 10520,
+      "end": 10640,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "data",
+      "start": 10640,
+      "end": 10880,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "data"
+    },
+    {
+      "text": "proves",
+      "start": 10880,
+      "end": 11440,
+      "confidence": 0.9980469,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "proves"
+    },
+    {
+      "text": "beyond",
+      "start": 11600,
+      "end": 12040,
+      "confidence": 0.9506836,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "beyond"
+    },
+    {
+      "text": "a",
+      "start": 12040,
+      "end": 12200,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "shadow",
+      "start": 12200,
+      "end": 12600,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "shadow"
+    },
+    {
+      "text": "of",
+      "start": 12600,
+      "end": 12720,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "of"
+    },
+    {
+      "text": "a",
+      "start": 12720,
+      "end": 12840,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "doubt",
+      "start": 12840,
+      "end": 13200,
+      "confidence": 0.92578125,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "doubt"
+    },
+    {
+      "text": "that",
+      "start": 13200,
+      "end": 13480,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "that"
+    },
+    {
+      "text": "it's",
+      "start": 13480,
+      "end": 13720,
+      "confidence": 0.9983724,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "it is"
+    },
+    {
+      "text": "necessary",
+      "start": 13720,
+      "end": 14240,
+      "confidence": 0.97753906,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "necessary"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 15,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

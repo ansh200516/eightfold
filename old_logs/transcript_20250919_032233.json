@@ -1,0 +1,335 @@
+{
+  "id": "47f3e26e-6505-4ccf-af8c-d5ee65e178c9",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.9635913,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "how would i handle class imbalance that's a classic you'd use over sampling techniques like smote or you could use a different evaluation metric it's a standard problem with a standard solution",
+  "expanded_text": "how would i handle class imbalance that is a classic you would over sampling techniques like smote or you could use a different evaluation metric it is a standard problem with a standard solution",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [
+    {
+      "original": "it's",
+      "count": 1
+    },
+    {
+      "original": "that's",
+      "count": 1
+    },
+    {
+      "original": "you'd use",
+      "count": 1
+    }
+  ],
+  "text": "how would i handle class imbalance that is a classic you would over sampling techniques like smote or you could use a different evaluation metric it is a standard problem with a standard solution",
+  "words": [
+    {
+      "text": "how",
+      "start": 160,
+      "end": 280,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "how"
+    },
+    {
+      "text": "would",
+      "start": 280,
+      "end": 440,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "would"
+    },
+    {
+      "text": "i",
+      "start": 440,
+      "end": 560,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "handle",
+      "start": 560,
+      "end": 840,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "handle"
+    },
+    {
+      "text": "class",
+      "start": 840,
+      "end": 1080,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "class"
+    },
+    {
+      "text": "imbalance",
+      "start": 1080,
+      "end": 1760,
+      "confidence": 0.9937744,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "imbalance"
+    },
+    {
+      "text": "that's",
+      "start": 1920,
+      "end": 2320,
+      "confidence": 0.99365234,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "that is"
+    },
+    {
+      "text": "a",
+      "start": 2320,
+      "end": 2400,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "classic",
+      "start": 2400,
+      "end": 2880,
+      "confidence": 0.99731445,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "classic"
+    },
+    {
+      "text": "you'd",
+      "start": 3120,
+      "end": 3560,
+      "confidence": 0.99886066,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "you would"
+    },
+    {
+      "text": "use",
+      "start": 3560,
+      "end": 3840,
+      "confidence": 0.99609375,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "use"
+    },
+    {
+      "text": "over",
+      "start": 4240,
+      "end": 4640,
+      "confidence": 0.9975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "over"
+    },
+    {
+      "text": "sampling",
+      "start": 4640,
+      "end": 5240,
+      "confidence": 0.9251302,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "sampling"
+    },
+    {
+      "text": "techniques",
+      "start": 5240,
+      "end": 5920,
+      "confidence": 0.90527344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "techniques"
+    },
+    {
+      "text": "like",
+      "start": 5920,
+      "end": 6240,
+      "confidence": 0.9814453,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "like"
+    },
+    {
+      "text": "smote",
+      "start": 6240,
+      "end": 6880,
+      "confidence": 0.7128906,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "smote"
+    },
+    {
+      "text": "or",
+      "start": 7680,
+      "end": 8080,
+      "confidence": 0.8808594,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "or"
+    },
+    {
+      "text": "you",
+      "start": 8960,
+      "end": 9240,
+      "confidence": 0.86816406,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "you"
+    },
+    {
+      "text": "could",
+      "start": 9240,
+      "end": 9400,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "could"
+    },
+    {
+      "text": "use",
+      "start": 9400,
+      "end": 9560,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "use"
+    },
+    {
+      "text": "a",
+      "start": 9560,
+      "end": 9680,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "different",
+      "start": 9680,
+      "end": 9880,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "different"
+    },
+    {
+      "text": "evaluation",
+      "start": 9880,
+      "end": 10480,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "evaluation"
+    },
+    {
+      "text": "metric",
+      "start": 10480,
+      "end": 11040,
+      "confidence": 0.998291,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "metric"
+    },
+    {
+      "text": "it's",
+      "start": 11120,
+      "end": 11480,
+      "confidence": 0.9991862,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "it is"
+    },
+    {
+      "text": "a",
+      "start": 11480,
+      "end": 11600,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "standard",
+      "start": 11600,
+      "end": 11920,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "standard"
+    },
+    {
+      "text": "problem",
+      "start": 11920,
+      "end": 12160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "problem"
+    },
+    {
+      "text": "with",
+      "start": 12160,
+      "end": 12400,
+      "confidence": 0.59228516,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "with"
+    },
+    {
+      "text": "a",
+      "start": 12400,
+      "end": 12600,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "standard",
+      "start": 12600,
+      "end": 12960,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "standard"
+    },
+    {
+      "text": "solution",
+      "start": 12960,
+      "end": 13440,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "solution"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 14,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

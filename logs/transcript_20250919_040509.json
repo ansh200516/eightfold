@@ -1,0 +1,340 @@
+{
+  "id": "1ce4b498-e53d-42c8-8694-5b0f233bb70a",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.9894948,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "original_text": "look fine he designed the core architecture and the database schema i wrote the code for it i was the lead developer not the architect it was my code but it was his system",
+  "expanded_text": "look fine he designed the core architecture and the database schema i wrote the code for it i was the lead developer not the architect it was my code but it was his system",
+  "expansion_method": "spacy",
+  "expansion_replacements_summary": [],
+  "text": "look fine he designed the core architecture and the database schema i wrote the code for it i was the lead developer not the architect it was my code but it was his system",
+  "words": [
+    {
+      "text": "look",
+      "start": 320,
+      "end": 560,
+      "confidence": 0.99609375,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "look"
+    },
+    {
+      "text": "fine",
+      "start": 560,
+      "end": 960,
+      "confidence": 0.998291,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "fine"
+    },
+    {
+      "text": "he",
+      "start": 960,
+      "end": 1160,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "he"
+    },
+    {
+      "text": "designed",
+      "start": 1160,
+      "end": 1480,
+      "confidence": 0.9992676,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "designed"
+    },
+    {
+      "text": "the",
+      "start": 1480,
+      "end": 1600,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "core",
+      "start": 1600,
+      "end": 1840,
+      "confidence": 0.85253906,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "core"
+    },
+    {
+      "text": "architecture",
+      "start": 1840,
+      "end": 2440,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "architecture"
+    },
+    {
+      "text": "and",
+      "start": 2440,
+      "end": 2680,
+      "confidence": 0.8173828,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "and"
+    },
+    {
+      "text": "the",
+      "start": 2680,
+      "end": 2880,
+      "confidence": 0.9980469,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "database",
+      "start": 2880,
+      "end": 3320,
+      "confidence": 0.9998372,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "database"
+    },
+    {
+      "text": "schema",
+      "start": 3320,
+      "end": 3760,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "schema"
+    },
+    {
+      "text": "i",
+      "start": 3760,
+      "end": 3960,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "wrote",
+      "start": 3960,
+      "end": 4200,
+      "confidence": 0.9998372,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "wrote"
+    },
+    {
+      "text": "the",
+      "start": 4200,
+      "end": 4360,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "code",
+      "start": 4360,
+      "end": 4600,
+      "confidence": 0.9998372,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "code"
+    },
+    {
+      "text": "for",
+      "start": 4600,
+      "end": 4720,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "for"
+    },
+    {
+      "text": "it",
+      "start": 4720,
+      "end": 4960,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "it"
+    },
+    {
+      "text": "i",
+      "start": 5200,
+      "end": 5480,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "was",
+      "start": 5480,
+      "end": 5640,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was"
+    },
+    {
+      "text": "the",
+      "start": 5640,
+      "end": 5800,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "lead",
+      "start": 5800,
+      "end": 6040,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "lead"
+    },
+    {
+      "text": "developer",
+      "start": 6040,
+      "end": 6640,
+      "confidence": 0.99975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "developer"
+    },
+    {
+      "text": "not",
+      "start": 6640,
+      "end": 6840,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "not"
+    },
+    {
+      "text": "the",
+      "start": 6840,
+      "end": 7000,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "architect",
+      "start": 7000,
+      "end": 7560,
+      "confidence": 0.99853516,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "architect"
+    },
+    {
+      "text": "it",
+      "start": 7560,
+      "end": 7800,
+      "confidence": 0.9975586,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "it"
+    },
+    {
+      "text": "was",
+      "start": 7800,
+      "end": 8040,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was"
+    },
+    {
+      "text": "my",
+      "start": 8040,
+      "end": 8320,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "my"
+    },
+    {
+      "text": "code",
+      "start": 8320,
+      "end": 8640,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "code"
+    },
+    {
+      "text": "but",
+      "start": 8640,
+      "end": 8840,
+      "confidence": 0.9980469,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "but"
+    },
+    {
+      "text": "it",
+      "start": 8840,
+      "end": 8960,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "it"
+    },
+    {
+      "text": "was",
+      "start": 8960,
+      "end": 9120,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "was"
+    },
+    {
+      "text": "his",
+      "start": 9120,
+      "end": 9400,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "his"
+    },
+    {
+      "text": "system",
+      "start": 9400,
+      "end": 9760,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "system"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 11,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}
