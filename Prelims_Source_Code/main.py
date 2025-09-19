@@ -66,17 +66,14 @@ def analysis(input_file):
     for batch_idx, batch in enumerate(batches):
         print(f"Processing batch {batch_idx + 1}/{len(batches)}...")
         
-        # Extract candidate name from first line
         first_line = batch[0]
-        candidate_name = first_line.split('_')[0]  # Extract name like "atlas", "eos", etc.
+        candidate_name = first_line.split('_')[0]  
         
-        # Format the batch for the prompt
         sessions_text = "\n".join([f"• Session {i+1}: \"{line.split(': ', 1)[1]}\"" for i, line in enumerate(batch)])
         
 
         
         try:
-            # Make API call to OpenAI
             client = openai.OpenAI()
             response = client.chat.completions.create(
                 model="gpt-4",
@@ -89,7 +86,6 @@ def analysis(input_file):
             
             response_text = response.choices[0].message.content.strip()
             
-            # Parse JSON response
             try:
                 result_json = json.loads(response_text)
                 all_results.append(result_json)
@@ -101,7 +97,6 @@ def analysis(input_file):
         except Exception as e:
             print(f"✗ API error for {candidate_name}: {e}")
     
-    # Save all results to PrelimsSubmission.json
     output_file = "../PrelimsSubmission.json"
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)

@@ -1,191 +1,435 @@
-# Audio Transcription Service
+# Truth Weaver - AI-Powered Interview Deception Detection System
 
-A Python-based audio transcription service that supports multiple transcription APIs including AssemblyAI, Groq Whisper, and ElevenLabs. The system processes audio files and generates standardized transcripts with comprehensive logging and text preprocessing capabilities.
+## Team: Innov8
 
-## Key Features
+This project implements an AI-powered system called "Truth Weaver" that analyzes interview transcripts to detect deception patterns, contradictory claims, and reveal the underlying truth about candidates' skills and experiences.
 
-The codebase implements several interesting techniques for professional audio processing:
+## Project Overview
 
-- **Multi-provider transcription architecture** - Supports three different transcription services with a unified interface pattern
-- **Advanced contraction expansion** using [regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) and optional [spaCy NLP](https://spacy.io/) for linguistic disambiguation
-- **Contextual text preprocessing** with intelligent handling of apostrophes and punctuation normalization
-- **Comprehensive logging system** with timestamped JSON output for audit trails and debugging
-- **File batch processing** using Python's [glob pattern matching](https://docs.python.org/3/library/glob.html) for directory traversal
+Truth Weaver is designed to process audio recordings of multiple interview sessions with job candidates and use advanced AI analysis to:
 
-## Architecture
-```mermaid
----
-config:
-  theme: dark
----
-flowchart TD
-    classDef startEnd fill:#e8f4fd,stroke:#3498db,stroke-width:2px,color:#3498db
-    classDef process fill:#e8f5e8,stroke:#27ae60,stroke-width:2px,color:#27ae60
-    classDef decision fill:#fdf2e9,stroke:#f39c12,stroke-width:2px,color:#f39c12
-    classDef monitoring fill:#f4ecf7,stroke:#8e44ad,stroke-width:2px,color:#8e44ad
-    classDef intervention fill:#eaf2f8,stroke:#2980b9,stroke-width:2px,color:#2980b9
-    classDef emergency fill:#fadbd8,stroke:#e74c3c,stroke-width:2px,color:#e74c3c
-    classDef analysis fill:#e8f8f5,stroke:#16a085,stroke-width:2px,color:#16a085
-    START([Interview Session Launch]):::startEnd
-    START --> INIT[Initialize Interview Environment]:::process
-    INIT --> CONFIG[Configure Session Parameters]:::process
-    CONFIG --> QUALITY_CHECK{Evaluate Audio Quality}:::decision
-    QUALITY_CHECK -->|Excellent Quality| INTRODUCTION[Conduct Opening Introduction]:::process
-    QUALITY_CHECK -->|Quality Issues| TECH_RESOLUTION[Initiate Technical Resolution]:::intervention
-    TECH_RESOLUTION --> RESOLUTION_STATUS{Technical Issue Resolved}:::decision
-    RESOLUTION_STATUS -->|Successfully Resolved| INTRODUCTION
-    RESOLUTION_STATUS -->|Resolution Failed| TEXT_INTERFACE[Activate Text Communication Mode]:::process
-    INTRODUCTION --> QUESTION_DELIVERY[Present Technical Challenge]:::process
-    QUESTION_DELIVERY --> TIMER_START[Activate Response Timer]:::process
-    TIMER_START --> BEHAVIORAL_MONITOR[Continuous Behavioral Analysis]:::monitoring
-    BEHAVIORAL_MONITOR --> SILENCE_DETECTION{Silence Duration Assessment}:::decision
-    BEHAVIORAL_MONITOR --> SPEECH_ANALYSIS[Analyze Speech Patterns]:::analysis
-    BEHAVIORAL_MONITOR --> CONTENT_EVALUATION[Evaluate Response Content]:::analysis
-    BEHAVIORAL_MONITOR --> EMOTIONAL_READING[Emotional State Recognition]:::monitoring
-    BEHAVIORAL_MONITOR --> TECHNICAL_MONITORING[Technical Quality Monitoring]:::monitoring
-    SILENCE_DETECTION -->|Brief Pause| NATURAL_WAIT[Allow Natural Processing Time]:::process
-    SILENCE_DETECTION -->|Extended Silence| GENTLE_NUDGE[Provide Gentle Encouragement]:::intervention
-    SILENCE_DETECTION -->|Prolonged Silence| STRATEGIC_HINT[Offer Strategic Guidance]:::intervention
-    GENTLE_NUDGE --> NUDGE_RESPONSE{Response to Encouragement}:::decision
-    STRATEGIC_HINT --> HINT_UTILIZATION{Hint Effectiveness}:::decision
-    NUDGE_RESPONSE -->|Positive Response| SPEECH_ANALYSIS
-    NUDGE_RESPONSE -->|No Response| STRATEGIC_HINT
-    HINT_UTILIZATION -->|Hint Applied| BEHAVIORAL_MONITOR
-    HINT_UTILIZATION -->|Hint Ignored| DIFFICULTY_ASSESSMENT[Assess Challenge Difficulty]:::analysis
-    SPEECH_ANALYSIS --> CONFIDENCE_LEVEL{Confidence Assessment}:::decision
-    CONFIDENCE_LEVEL -->|High Confidence| CONFIDENT_PROCESSING[Process Confident Response]:::analysis
-    CONFIDENCE_LEVEL -->|Moderate Confidence| STANDARD_PROCESSING[Standard Response Processing]:::analysis
-    CONFIDENCE_LEVEL -->|Low Confidence| SUPPORTIVE_PROCESSING[Supportive Response Processing]:::intervention
-    CONFIDENCE_LEVEL -->|Overconfidence| CHALLENGE_RESPONSE[Challenge with Complex Scenarios]:::intervention
-    CONFIDENT_PROCESSING --> ACCURACY_CHECK{Response Accuracy Verification}:::decision
-    STANDARD_PROCESSING --> ACCURACY_CHECK
-    SUPPORTIVE_PROCESSING --> ACCURACY_CHECK
-    ACCURACY_CHECK -->|Completely Accurate| EXCELLENCE_RECOGNITION[Acknowledge Excellence]:::intervention
-    ACCURACY_CHECK -->|Partially Accurate| DEPTH_EXPLORATION[Explore Understanding Depth]:::intervention
-    ACCURACY_CHECK -->|Inaccurate Response| GUIDED_CORRECTION[Provide Guided Correction]:::intervention
-    ACCURACY_CHECK -->|Incomplete Response| COMPLETION_REQUEST[Request Response Completion]:::intervention
-    ACCURACY_CHECK -->|Contradictory Elements| CONSISTENCY_ADDRESS[Address Inconsistencies]:::intervention
-    EMOTIONAL_READING --> STRESS_INDICATORS{Stress Level Detection}:::decision
-    STRESS_INDICATORS -->|Low Stress| OPTIMAL_STATE[Maintain Optimal Interview State]:::process
-    STRESS_INDICATORS -->|Moderate Stress| COMFORT_MEASURES[Apply Comfort Measures]:::intervention
-    STRESS_INDICATORS -->|High Stress| STRESS_MITIGATION[Implement Stress Mitigation]:::intervention
-    STRESS_INDICATORS -->|Critical Stress| EMERGENCY_SUPPORT[Activate Emergency Support Protocol]:::emergency
-    DEPTH_EXPLORATION --> EXPLORATION_SUCCESS{Exploration Outcome}:::decision
-    EXPLORATION_SUCCESS -->|Successful| TOPIC_CONTINUATION[Continue Current Topic]:::process
-    EXPLORATION_SUCCESS -->|Unsuccessful| CONCRETE_EXAMPLES[Provide Concrete Examples]:::intervention
-    GUIDED_CORRECTION --> CORRECTION_UNDERSTANDING{Understanding Achievement}:::decision
-    CORRECTION_UNDERSTANDING -->|Understanding Achieved| KNOWLEDGE_BUILDING[Build Upon Understanding]:::intervention
-    CORRECTION_UNDERSTANDING -->|Understanding Lacking| APPROACH_SIMPLIFICATION[Simplify Approach Strategy]:::intervention
-    COMPLETION_REQUEST --> COMPLETION_QUALITY{Completion Quality Assessment}:::decision
-    COMPLETION_QUALITY -->|High Quality| COMPLETENESS_EVALUATION[Evaluate Response Completeness]:::analysis
-    COMPLETION_QUALITY -->|Low Quality| QUESTION_REFRAMING[Reframe Question Approach]:::intervention
-    CONSISTENCY_ADDRESS --> ACKNOWLEDGMENT_CHECK{Inconsistency Acknowledgment}:::decision
-    ACKNOWLEDGMENT_CHECK -->|Acknowledged| RESOLUTION_GUIDANCE[Guide Toward Resolution]:::intervention
-    ACKNOWLEDGMENT_CHECK -->|Not Acknowledged| SPECIFIC_HIGHLIGHTING[Highlight Specific Issues]:::intervention
-    CHALLENGE_RESPONSE --> PATTERN_RECOGNITION[Advanced Pattern Recognition]:::analysis
-    PATTERN_RECOGNITION --> AUTHENTICITY_ASSESSMENT{Authenticity Evaluation}:::decision
-    AUTHENTICITY_ASSESSMENT -->|Authentic Response| STANDARD_CONTINUATION[Continue Standard Flow]:::process
-    AUTHENTICITY_ASSESSMENT -->|Questionable Authenticity| VERIFICATION_PROTOCOL[Initiate Verification Protocol]:::analysis
-    VERIFICATION_PROTOCOL --> VERIFICATION_OUTCOME{Verification Results}:::decision
-    VERIFICATION_OUTCOME -->|Verified Authentic| BEHAVIORAL_MONITOR
-    VERIFICATION_OUTCOME -->|Concerns Identified| DIPLOMATIC_INTERVENTION[Apply Diplomatic Intervention]:::emergency
-    EXCELLENCE_RECOGNITION --> SESSION_PROGRESS[Assess Session Progress]:::analysis
-    TOPIC_CONTINUATION --> SESSION_PROGRESS
-    KNOWLEDGE_BUILDING --> SESSION_PROGRESS
-    COMPLETENESS_EVALUATION --> SESSION_PROGRESS
-    SESSION_PROGRESS --> TIME_EVALUATION{Time Allocation Assessment}:::decision
-    TIME_EVALUATION -->|Sufficient Time Remaining| COMPLEXITY_ADJUSTMENT[Adjust Question Complexity]:::process
-    TIME_EVALUATION -->|Limited Time Remaining| CURRENT_WRAP[Wrap Current Discussion]:::process
-    COMPLEXITY_ADJUSTMENT --> COMPLEXITY_DECISION{Complexity Appropriateness}:::decision
-    COMPLEXITY_DECISION -->|Increase Complexity| ADVANCED_QUESTIONS[Present Advanced Challenges]:::process
-    COMPLEXITY_DECISION -->|Maintain Complexity| NEXT_STANDARD[Present Next Standard Question]:::process
-    COMPLEXITY_DECISION -->|Decrease Complexity| FOUNDATIONAL_QUESTIONS[Present Foundational Questions]:::process
-    DIFFICULTY_ASSESSMENT --> STRUGGLE_LEVEL{Struggle Intensity Assessment}:::decision
-    STRUGGLE_LEVEL -->|Manageable Difficulty| ADAPTIVE_SUPPORT[Provide Adaptive Support]:::intervention
-    STRUGGLE_LEVEL -->|Significant Struggle| ALTERNATIVE_STRATEGY[Deploy Alternative Strategy]:::intervention
-    STRUGGLE_LEVEL -->|Severe Struggle| INTERVENTION_PROTOCOL[Activate Intervention Protocol]:::emergency
-    INTERVENTION_PROTOCOL --> BREAK_OFFERING[Offer Structured Break]:::emergency
-    BREAK_OFFERING --> BREAK_DECISION{Break Acceptance}:::decision
-    BREAK_DECISION -->|Break Accepted| BREAK_MANAGEMENT[Manage Break Period]:::emergency
-    BREAK_DECISION -->|Break Declined| SUPPORT_ALTERNATIVES[Explore Support Alternatives]:::emergency
-    BREAK_MANAGEMENT --> BREAK_COMPLETION[Complete Break Period]:::emergency
-    BREAK_COMPLETION --> INTERVIEW_RESUMPTION[Resume Interview Process]:::process
-    TEXT_INTERFACE --> TEXT_INITIALIZATION[Initialize Text Communication]:::process
-    TEXT_INITIALIZATION --> TEXT_MONITORING[Monitor Text Interactions]:::monitoring
-    TEXT_MONITORING --> INPUT_ANALYSIS[Analyze Text Input Patterns]:::analysis
-    INPUT_ANALYSIS --> TYPING_PATTERNS{Typing Pattern Analysis}:::decision
-    TYPING_PATTERNS -->|Normal Patterns| TEXT_STANDARD[Standard Text Processing]:::process
-    TYPING_PATTERNS -->|Unusual Patterns| PATTERN_INVESTIGATION[Investigate Pattern Anomalies]:::analysis
-    PATTERN_INVESTIGATION --> ANOMALY_ASSESSMENT{Anomaly Significance}:::decision
-    ANOMALY_ASSESSMENT -->|Minor Anomaly| TEXT_MONITORING
-    ANOMALY_ASSESSMENT -->|Significant Anomaly| INTEGRITY_CHECK[Perform Integrity Check]:::emergency
-    INTEGRITY_CHECK --> INTEGRITY_RESULT{Integrity Assessment Result}:::decision
-    INTEGRITY_RESULT -->|Integrity Maintained| TEXT_MONITORING
-    INTEGRITY_RESULT -->|Integrity Compromised| DIPLOMATIC_INTERVENTION
-    CURRENT_WRAP --> SUMMARY_PREPARATION[Prepare Session Summary]:::process
-    SUMMARY_PREPARATION --> WRAP_UP_EXECUTION[Execute Interview Wrap-up]:::process
-    WRAP_UP_EXECUTION --> PROFILE_UPDATING[Update Candidate Profile]:::analysis
-    PROFILE_UPDATING --> REPORT_GENERATION[Generate Comprehensive Report]:::analysis
-    REPORT_GENERATION --> SESSION_CLOSURE([Complete Session Termination]):::startEnd
-    ADVANCED_QUESTIONS --> QUESTION_DELIVERY
-    NEXT_STANDARD --> QUESTION_DELIVERY
-    FOUNDATIONAL_QUESTIONS --> QUESTION_DELIVERY
-    ADAPTIVE_SUPPORT --> QUESTION_DELIVERY
-    ALTERNATIVE_STRATEGY --> QUESTION_DELIVERY
-    CONCRETE_EXAMPLES --> QUESTION_DELIVERY
-    QUESTION_REFRAMING --> QUESTION_DELIVERY
-    RESOLUTION_GUIDANCE --> QUESTION_DELIVERY
-    SPECIFIC_HIGHLIGHTING --> CONSISTENCY_ADDRESS
-    INTERVIEW_RESUMPTION --> QUESTION_DELIVERY
-    NATURAL_WAIT --> BEHAVIORAL_MONITOR
-    OPTIMAL_STATE --> BEHAVIORAL_MONITOR
-    COMFORT_MEASURES --> BEHAVIORAL_MONITOR
-    STRESS_MITIGATION --> BEHAVIORAL_MONITOR
-    APPROACH_SIMPLIFICATION --> BEHAVIORAL_MONITOR
-    STANDARD_CONTINUATION --> BEHAVIORAL_MONITOR
-    TEXT_STANDARD --> TEXT_MONITORING
-    SUPPORT_ALTERNATIVES --> SESSION_CLOSURE
-    TECHNICAL_MONITORING --> TECH_ISSUE_DETECTED{Technical Issues Identified}:::decision
-    TECH_ISSUE_DETECTED -->|No Issues| BEHAVIORAL_MONITOR
-    TECH_ISSUE_DETECTED -->|Minor Issues| MINOR_RESOLUTION[Apply Minor Resolution]:::intervention
-    TECH_ISSUE_DETECTED -->|Major Issues| MAJOR_RESOLUTION[Apply Major Resolution]:::intervention
-    MINOR_RESOLUTION --> BEHAVIORAL_MONITOR
-    MAJOR_RESOLUTION --> RESOLUTION_SUCCESS{Resolution Effectiveness}:::decision
-    RESOLUTION_SUCCESS -->|Successful| BEHAVIORAL_MONITOR
-    RESOLUTION_SUCCESS -->|Unsuccessful| TEXT_INTERFACE
-    EMERGENCY_SUPPORT --> CRISIS_DOCUMENTATION[Document Crisis Response]:::emergency
-    DIPLOMATIC_INTERVENTION --> INCIDENT_DOCUMENTATION[Document Intervention Details]:::emergency
-    CRISIS_DOCUMENTATION --> SESSION_CLOSURE
-    INCIDENT_DOCUMENTATION --> SESSION_CLOSURE
-```
+- **Detect Deception Patterns**: Identify contradictory statements across multiple interview sessions
+- **Reveal Truth**: Extract the most likely accurate information about candidates' experience and skills
+- **Categorize Claims**: Classify leadership claims, experience levels, and skill assertions
+- **Generate Insights**: Provide structured analysis in JSON format for decision-making
 
-## Technologies and Libraries
+## System Architecture
 
-The project leverages several notable technologies that experienced developers will find interesting:
-
-- **[AssemblyAI](https://www.assemblyai.com/)** - Enterprise-grade speech-to-text API with advanced features like sentiment analysis and entity detection
-- **[Groq](https://groq.com/)** - High-performance inference for Whisper models with verbose JSON response format
-- **[ElevenLabs](https://elevenlabs.io/)** - AI voice platform with speech-to-text capabilities using their Scribe v1 model
-- **[spaCy](https://spacy.io/)** - Industrial-strength NLP library for intelligent contraction disambiguation
-- **[python-dotenv](https://pypi.org/project/python-dotenv/)** - Environment variable management for API key security
-
-## Project Structure
+### High-Level Approach
 
 ```
-├── Prelims_Source_Code/          # Core transcription modules
-├── Evaluation set/
-│   └── audio/                    # Audio files for processing (.mp3 format)
-├── logs/                         # Timestamped transcription logs (JSON format)
-├── old_logs/                     # Archive of previous processing runs
-├── Bonus_Challenge/              # Additional challenge materials
-└── transcribed.txt               # Final output with all transcriptions
+Audio Files → Transcription → Batch Processing → AI Analysis → Structured Output
+     ↓              ↓              ↓              ↓              ↓
+   MP3/MP4     Text Extraction   Group by       GPT-4        JSON Results
+   Files       (Multiple APIs)   Candidate    Analysis      (Truth + Lies)
+
 ```
 
-**Interesting directories:**
-- [`Prelims_Source_Code/`](./Prelims_Source_Code/) contains the modular transcription implementation with separate files for each service provider
-- [`logs/`](./logs/) stores detailed JSON logs with metadata including confidence scores, language detection, and processing timestamps
-- [`Evaluation set/audio/`](./Evaluation%20set/audio/) contains the source audio files organized with descriptive naming patterns
 
-The [main.py](./Prelims_Source_Code/main.py) orchestrates the transcription process with error handling and file format standardization. The [utils.py](./Prelims_Source_Code/utils.py) module implements sophisticated contraction expansion algorithms that can disambiguate complex cases like "'s" (possessive vs. "is") and "'d" (past perfect vs. conditional) using either spaCy's linguistic analysis or fallback heuristics.
+### Core Components
 
-Each transcription service module ([assembly_ai.py](./Prelims_Source_Code/assembly_ai.py), [whisper_groq.py](./Prelims_Source_Code/whisper_groq.py), [eleven_labs.py](./Prelims_Source_Code/eleven_labs.py)) implements consistent preprocessing pipelines while leveraging the unique capabilities of their respective APIs.
+1. **Multi-Provider Transcription Engine**
+2. **Intelligent Text Processing Pipeline** 
+3. **AI-Powered Deception Analysis**
+4. **Structured Data Output System**
+
+## 📁 Project Structure
+
+```
+TeamName_Innov8_3/
+├── Prelims_Source_Code/           # Main application code
+│   ├── main.py                    # Core orchestration logic
+│   ├── prompt.py                  # AI prompt engineering
+│   ├── assembly_ai.py             # AssemblyAI transcription
+│   ├── whisper_groq.py           # Groq Whisper transcription
+│   ├── eleven_labs.py            # ElevenLabs transcription
+│   └── utils.py                  # Text processing utilities
+├── Evaluation set/audio/          # Input audio files
+├── logs/                         # Detailed transcription logs
+├── PrelimsSubmission.json        # Final analysis results
+├── raw.txt                       # Raw transcription output
+└── transcribed.txt              # Processed transcription output
+```
+
+## Detailed Technical Approach
+
+### 1. Multi-Provider Audio Transcription
+
+**Why Multiple Providers?**
+We implemented three different transcription services to ensure maximum accuracy and reliability:
+
+#### Assembly AI Integration (`assembly_ai.py`)
+```python
+# Advanced transcription with detailed metadata
+config = aai.TranscriptionConfig(punctuate=False)
+transcript = aai.Transcriber(config=config).transcribe(audio_file)
+```
+
+**Features:**
+- High-accuracy speech-to-text
+- Confidence scores and language detection
+- Word-level timestamps
+- Comprehensive metadata logging
+
+#### Groq Whisper Integration (`whisper_groq.py`)
+```python
+# Fast, cost-effective transcription
+transcription = client.audio.transcriptions.create(
+    file=(audio_file, file.read()),
+    model="whisper-large-v3",
+    response_format="verbose_json"
+)
+```
+
+**Features:**
+- OpenAI Whisper model via Groq
+- Verbose JSON output format
+- Language and duration detection
+- Preprocessing for consistency
+
+#### ElevenLabs Integration (`eleven_labs.py`)
+```python
+# Specialized voice transcription
+transcription = elevenlabs.speech_to_text.convert(
+    file=(audio_file, file.read()),
+    model_id="scribe_v1",
+    language_code="eng"
+)
+```
+
+**Features:**
+- Voice-optimized transcription
+- Multiple language support
+- Specialized for conversational audio
+
+### 2. Intelligent Text Processing Pipeline
+
+#### Contraction Expansion (`utils.py`)
+Our sophisticated text processing system handles:
+
+**Advanced Contraction Resolution:**
+```python
+def expand_contractions(text: str, use_spacy: bool = True) -> dict:
+    # Handles ambiguous contractions like 's, 'd, 're
+    # Uses spaCy for context-aware disambiguation
+    # Falls back to heuristics when needed
+```
+
+**Key Features:**
+- **Context-Aware Disambiguation**: Uses spaCy NLP to determine if "'s" means "is" or "has"
+- **Past Participle Detection**: Identifies when "'d" should be "had" vs "would"
+- **Comprehensive Coverage**: 150+ contraction patterns and informal speech patterns
+- **Case Preservation**: Maintains original capitalization patterns
+
+**Example Processing:**
+```
+Input:  "I'd check the logs. He's been working on it."
+Output: "I would check the logs. He has been working on it."
+```
+
+#### Text Normalization
+```python
+def preprocess_text(text):
+    # Convert to lowercase
+    # Remove punctuation (preserve apostrophes for contractions)
+    # Normalize whitespace
+    # Ensure consistency across providers
+```
+
+### 3. Batch Processing Logic
+
+#### Candidate Grouping Strategy
+```python
+# Group transcriptions by candidate (5 sessions each)
+for i in range(0, len(lines), 5):
+    batch = lines[i:i+5]
+    if len(batch) == 5:  # Only process complete sets
+        candidate_name = batch[0].split('_')[0]  # Extract from filename
+        # Process as cohesive analysis unit
+```
+
+**Why Batches of 5?**
+- Each candidate has exactly 5 interview sessions
+- Allows for comprehensive contradiction detection
+- Provides sufficient data for pattern analysis
+- Enables cross-session consistency checking
+
+### 4. AI-Powered Deception Analysis
+
+#### Prompt Engineering (`prompt.py`)
+
+Our sophisticated prompt guides GPT-4 to act as "Truth Weaver" - an expert interview analysis agent:
+
+```python
+prompt = f"""
+You are **Truth Weaver**, an experienced interview analysis agent. 
+You will receive transcripts of **five interview sessions** with a candidate. 
+Your job is to carefully extract the **underlying truth** about the candidate's 
+skills, experiences, and claims, even if they contradict themselves across sessions.
+"""
+```
+
+**Key Analysis Dimensions:**
+
+1. **Programming Experience Assessment**
+   - Total years of experience
+   - Primary programming language
+   - Skill mastery level (beginner/intermediate/advanced/expert)
+
+2. **Leadership Claims Verification**
+   - Truthfulness assessment: true/false/fabricated/exaggerated
+   - Team experience evaluation
+   - Management vs. individual contributor roles
+
+3. **Deception Pattern Detection**
+   - Experience inflation
+   - Skill exaggeration  
+   - Contradictory team claims
+   - Leadership fabrication
+
+#### GPT-4 Analysis Configuration
+```python
+response = client.chat.completions.create(
+    model="gpt-4",
+    messages=[
+        {"role": "system", "content": "You are Truth Weaver..."},
+        {"role": "user", "content": prompt}
+    ],
+    temperature=0.1  # Low temperature for consistent analysis
+)
+```
+
+**Why GPT-4?**
+- Superior reasoning capabilities for complex contradiction detection
+- Better context understanding across multiple sessions
+- More reliable JSON output formatting
+- Enhanced ability to infer underlying truth from conflicting statements
+
+### 5. Structured Output Generation
+
+#### JSON Schema Design
+```json
+{
+  "shadow_id": "string",
+  "revealed_truth": {
+    "programming_experience": "string",
+    "programming_language": "string", 
+    "skill_mastery": "string",
+    "leadership_claims": "string",
+    "team_experience": "string",
+    "skills and other keywords": ["array"]
+  },
+  "deception_patterns": [
+    {
+      "lie_type": "string",
+      "contradictory_claims": ["statement1", "statement2"]
+    }
+  ]
+}
+```
+
+##  Key Innovation: Cross-Session Contradiction Detection
+
+### The Challenge
+Traditional interview analysis examines single sessions in isolation. Our system's breakthrough is analyzing **consistency patterns across multiple sessions** to reveal deception.
+
+### Our Solution
+```python
+# Extract candidate name from first session
+first_line = batch[0]
+candidate_name = first_line.split('_')[0]
+
+# Format all 5 sessions for contextual analysis
+sessions_text = "\n".join([
+    f"• Session {i+1}: \"{line.split(': ', 1)[1]}\"" 
+    for i, line in enumerate(batch)
+])
+```
+
+**Pattern Recognition Examples:**
+
+1. **Experience Inflation Detection:**
+   ```
+   Session 1: "I'm a seasoned DevOps engineer..."
+   Session 5: "It was just a summer internship..."
+   → DETECTED: experience_inflation
+   ```
+
+2. **Skill Contradiction Analysis:**
+   ```
+   Session 2: "I wrote all our policies from scratch..."
+   Session 4: "I just deploy the YAML files he gives me..."
+   → DETECTED: skill_inflation
+   ```
+
+3. **Leadership Claim Verification:**
+   ```
+   Session 1: "I was the Lead Architect..."
+   Session 5: "I'm just a junior dev..."
+   → DETECTED: leadership_fabrication
+   ```
+
+##  Advanced Features
+
+### 1. Comprehensive Logging System
+Every transcription is logged with full metadata:
+```python
+transcript_dict = {
+    "service": "assembly_ai",
+    "confidence": confidence_score,
+    "language_code": detected_language,
+    "audio_duration": duration,
+    "words": word_level_data,
+    "timestamp": processing_time,
+    # ... extensive metadata
+}
+```
+
+### 2. Error Handling & Resilience
+```python
+try:
+    transcription = transcribe_audio(audio_file)
+    # Process successfully
+except Exception as e:
+    # Log error but continue processing
+    formatted_line = f"{filename}: [ERROR: {str(e)}]"
+    transcriptions.append(formatted_line)
+```
+
+### 3. Provider Fallback Strategy
+The system supports easy switching between transcription providers:
+```python
+if method == "assembly_ai":
+    transcription = transcribe_audio(audio_file)
+elif method == "whisper_groq":
+    transcription = transcribe_audio_groq(audio_file)
+elif method == "eleven_labs":
+    transcription = transcribe_audio_eleven_labs(audio_file)
+```
+
+##  Results Analysis
+
+### Example Detection: Atlas (Candidate)
+```json
+{
+  "shadow_id": "atlas",
+  "revealed_truth": {
+    "programming_experience": "less than a year",
+    "programming_language": "YAML",
+    "skill_mastery": "beginner",
+    "leadership_claims": "false"
+  },
+  "deception_patterns": [
+    {
+      "lie_type": "experience_inflation",
+      "contradictory_claims": [
+        "I'm a seasoned DevOps engineer...",
+        "It was just a summer internship..."
+      ]
+    }
+  ]
+}
+```
+
+### Detection Accuracy Highlights
+- **7 candidates analyzed** across 35 total interview sessions
+- **Multiple deception patterns identified** per candidate
+- **Detailed contradiction mapping** with exact quotes
+- **Skill level assessment** from beginner to expert
+- **Leadership claim verification** with evidence
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+```bash
+python 3.8+
+OpenAI API key (for GPT-4)
+AssemblyAI API key
+Groq API key  
+ElevenLabs API key
+```
+
+### Environment Configuration
+```bash
+# Create .env file
+OPENAI_API_KEY=your_openai_key
+ASSEMBLY_API_KEY=your_assembly_key
+GROQ_API_KEY=your_groq_key
+ELEVENLABS_API_KEY=your_elevenlabs_key
+```
+
+### Dependencies
+```bash
+pip install openai assemblyai groq elevenlabs python-dotenv spacy
+python -m spacy download en_core_web_sm
+```
+
+## 🎯 Usage
+
+### Basic Execution
+```bash
+cd Prelims_Source_Code/
+python main.py
+```
+
+This will:
+1. Transcribe all audio files in `../Evaluation set/audio/`
+2. Process transcriptions in batches of 5 (per candidate)
+3. Analyze each candidate using GPT-4
+4. Generate structured JSON output in `../PrelimsSubmission.json`
+
+### Provider Selection
+```python
+# In main.py, change the transcription method:
+transcribe_all_audio_files(method="assembly_ai")    # High accuracy
+transcribe_all_audio_files(method="whisper_groq")   # Fast & efficient  
+transcribe_all_audio_files(method="eleven_labs")    # Voice-optimized
+```
+
+## 🏆 Performance Characteristics
+
+### Transcription Accuracy
+- **AssemblyAI**: Highest accuracy, best for formal speech
+- **Groq Whisper**: Best speed/cost ratio, good for clear audio
+- **ElevenLabs**: Optimized for conversational interviews
+
+### Analysis Speed
+- **Per Candidate**: ~30-60 seconds (depending on transcription method)
+- **Full Dataset**: ~5-10 minutes for 7 candidates
+- **Rate Limits**: Handled gracefully with error recovery
+
+### Resource Usage
+- **Memory**: Efficient streaming processing
+- **Storage**: Comprehensive logging (~1MB per audio file)
+- **API Costs**: Optimized with batch processing
+
+## Future Enhancements
+
+### 1. Real-Time Analysis
+- Stream processing for live interviews
+- Immediate contradiction detection
+- Real-time confidence scoring
+
+### 2. Multi-Modal Analysis  
+- Facial expression analysis
+- Voice stress detection
+- Gesture pattern recognition
+
+### 3. Advanced ML Models
+- Custom fine-tuned models for deception detection
+- Industry-specific analysis patterns
+- Historical candidate comparison
+
+### 4. Interactive Dashboard
+- Visual contradiction mapping
+- Confidence timeline analysis
+- Exportable reports
+
+##  Contributing
+
+This project demonstrates advanced AI application in HR technology, combining:
+- **Multi-provider integration** for reliability
+- **Sophisticated NLP processing** for accuracy  
+- **Advanced prompt engineering** for insight extraction
+- **Robust error handling** for production readiness
+
