@@ -1,0 +1,174 @@
+{
+  "id": "e55a8dab-02ed-4aaa-a371-771e8c935fb6",
+  "status": "completed",
+  "language_confidence": null,
+  "confidence": 0.99730426,
+  "summarization": null,
+  "language_code": null,
+  "language_detection": null,
+  "text": "i the lead dev actually wrote a library for that i just used his transaction decorator",
+  "words": [
+    {
+      "text": "i",
+      "start": 240,
+      "end": 480,
+      "confidence": 0.9663086,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "the",
+      "start": 1200,
+      "end": 1480,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "the"
+    },
+    {
+      "text": "lead",
+      "start": 1480,
+      "end": 1680,
+      "confidence": 0.99853516,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "lead"
+    },
+    {
+      "text": "dev",
+      "start": 1680,
+      "end": 1920,
+      "confidence": 0.99853516,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "dev"
+    },
+    {
+      "text": "actually",
+      "start": 1920,
+      "end": 2200,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "actually"
+    },
+    {
+      "text": "wrote",
+      "start": 2200,
+      "end": 2480,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "wrote"
+    },
+    {
+      "text": "a",
+      "start": 2480,
+      "end": 2600,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "a"
+    },
+    {
+      "text": "library",
+      "start": 2600,
+      "end": 3000,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "library"
+    },
+    {
+      "text": "for",
+      "start": 3000,
+      "end": 3160,
+      "confidence": 1.0,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "for"
+    },
+    {
+      "text": "that",
+      "start": 3160,
+      "end": 3440,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "that"
+    },
+    {
+      "text": "i",
+      "start": 3440,
+      "end": 3720,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "i"
+    },
+    {
+      "text": "just",
+      "start": 3720,
+      "end": 3880,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "just"
+    },
+    {
+      "text": "used",
+      "start": 3880,
+      "end": 4080,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "used"
+    },
+    {
+      "text": "his",
+      "start": 4080,
+      "end": 4280,
+      "confidence": 0.99902344,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "his"
+    },
+    {
+      "text": "transaction",
+      "start": 4280,
+      "end": 4800,
+      "confidence": 0.9995117,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "transaction"
+    },
+    {
+      "text": "decorator",
+      "start": 4800,
+      "end": 5440,
+      "confidence": 0.99886066,
+      "speaker": null,
+      "channel": null,
+      "text_expanded": "decorator"
+    }
+  ],
+  "utterances": null,
+  "audio_duration": 6,
+  "punctuate": null,
+  "format_text": null,
+  "disfluencies": null,
+  "multichannel": null,
+  "auto_highlights_result": null,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "filter_profanity": null,
+  "summary_type": null,
+  "chapters": null,
+  "summary_model": null,
+  "summary": null,
+  "topics": null,
+  "sentiment_analysis": null,
+  "entity_detection": null,
+  "entities": null
+}

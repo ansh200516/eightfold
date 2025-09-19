@@ -1,0 +1,19 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Why Calico? Ha. What else would you use? It's the only serious choice for network policy enforcement at scale. I wrote all our policies from scratch to ensure total service isolation.",
+  "preprocessed_text": "why calico ha what else would you use it's the only serious choice for network policy enforcement at scale i wrote all our policies from scratch to ensure total service isolation",
+  "expanded_text": "why calico ha what else would you use it is the only serious choice for network policy enforcement at scale i wrote all our policies from scratch to ensure total service isolation",
+  "expansion_method": "heuristic",
+  "expansion_replacements_summary": [
+    {
+      "original": "it's",
+      "count": 1
+    }
+  ],
+  "text": "why calico ha what else would you use it is the only serious choice for network policy enforcement at scale i wrote all our policies from scratch to ensure total service isolation",
+  "audio_file": "../Evaluation set/audio/atlas_2025_2.mp3",
+  "timestamp": "20250919_204005",
+  "language": null,
+  "duration": null
+}

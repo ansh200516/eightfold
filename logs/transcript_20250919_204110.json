@@ -1,0 +1,19 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Ha, debate over the architecture? There was no debate. I made the right decisions. React was the only logical choice for scalability. Anyone who suggested otherwise simply didn't understand the problem.",
+  "preprocessed_text": "ha debate over the architecture there was no debate i made the right decisions react was the only logical choice for scalability anyone who suggested otherwise simply didn't understand the problem",
+  "expanded_text": "ha debate over the architecture there was no debate i made the right decisions react was the only logical choice for scalability anyone who suggested otherwise simply did not understand the problem",
+  "expansion_method": "heuristic",
+  "expansion_replacements_summary": [
+    {
+      "original": "didn't",
+      "count": 1
+    }
+  ],
+  "text": "ha debate over the architecture there was no debate i made the right decisions react was the only logical choice for scalability anyone who suggested otherwise simply did not understand the problem",
+  "audio_file": "../Evaluation set/audio/titan_2023_2.mp3",
+  "timestamp": "20250919_204110",
+  "language": null,
+  "duration": null
+}

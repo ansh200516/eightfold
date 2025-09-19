@@ -1,0 +1,23 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Oh God, he's asking more data questions. I only took a weekend workshop on this stuff. I don't know any of it. Just ask me about Rails please, just ask me about Rails.",
+  "preprocessed_text": "oh god he's asking more data questions i only took a weekend workshop on this stuff i don't know any of it just ask me about rails please just ask me about rails",
+  "expanded_text": "oh god he is asking more data questions i only took a weekend workshop on this stuff i do not know any of it just ask me about rails please just ask me about rails",
+  "expansion_method": "heuristic",
+  "expansion_replacements_summary": [
+    {
+      "original": "don't",
+      "count": 1
+    },
+    {
+      "original": "he's",
+      "count": 1
+    }
+  ],
+  "text": "oh god he is asking more data questions i only took a weekend workshop on this stuff i do not know any of it just ask me about rails please just ask me about rails",
+  "audio_file": "../Evaluation set/audio/selene_2024_5.mp3",
+  "timestamp": "20250919_204107",
+  "language": null,
+  "duration": null
+}

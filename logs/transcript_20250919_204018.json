@@ -1,0 +1,19 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "While I'm proud of my service level design skills, my goal is to grow into that lead architect role. I want to learn more about the challenges of designing the seams between the services, not just the services themselves.",
+  "preprocessed_text": "while i'm proud of my service level design skills my goal is to grow into that lead architect role i want to learn more about the challenges of designing the seams between the services not just the services themselves",
+  "expanded_text": "while i am proud of my service level design skills my goal is to grow into that lead architect role i want to learn more about the challenges of designing the seams between the services not just the services themselves",
+  "expansion_method": "heuristic",
+  "expansion_replacements_summary": [
+    {
+      "original": "i'm",
+      "count": 1
+    }
+  ],
+  "text": "while i am proud of my service level design skills my goal is to grow into that lead architect role i want to learn more about the challenges of designing the seams between the services not just the services themselves",
+  "audio_file": "../Evaluation set/audio/eos_2023_5.mp3",
+  "timestamp": "20250919_204018",
+  "language": null,
+  "duration": null
+}

@@ -1,0 +1,14 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "The senior engineer usually handles the network debugging. I just deploy the YAML files he gives me.",
+  "preprocessed_text": "the senior engineer usually handles the network debugging i just deploy the yaml files he gives me",
+  "expanded_text": "the senior engineer usually handles the network debugging i just deploy the yaml files he gives me",
+  "expansion_method": "heuristic",
+  "expansion_replacements_summary": [],
+  "text": "the senior engineer usually handles the network debugging i just deploy the yaml files he gives me",
+  "audio_file": "../Evaluation set/audio/atlas_2025_4.mp3",
+  "timestamp": "20250919_204007",
+  "language": null,
+  "duration": null
+}

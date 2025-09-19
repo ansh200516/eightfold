@@ -1,8 +1,10 @@
 from assembly_ai import transcribe_audio
+from whisper_groq import transcribe_audio as transcribe_audio_groq
+from eleven_labs import transcribe_audio as transcribe_audio_eleven_labs
 import os
 import glob
 
-def transcribe_all_audio_files():
+def transcribe_all_audio_files(method):
     """Transcribe all audio files in the Evaluation set/audio directory"""
     audio_dir = "../Evaluation set/audio"
     output_file = "../transcribed.txt"
@@ -18,7 +20,12 @@ def transcribe_all_audio_files():
         print(f"Transcribing {filename}...")
         
         try:
-            transcription = transcribe_audio(audio_file)
+            if method == "assembly_ai":
+                transcription = transcribe_audio(audio_file)
+            elif method == "whisper_groq":
+                transcription = transcribe_audio_groq(audio_file)
+            elif method == "eleven_labs":
+                transcription = transcribe_audio_eleven_labs(audio_file)
             formatted_filename = filename.replace('.mp3', '.mp4')
             formatted_line = f"{formatted_filename}: {transcription}"
             transcriptions.append(formatted_line)
@@ -39,4 +46,4 @@ def transcribe_all_audio_files():
     print(f"Total files processed: {len(audio_files)}")
 
 if __name__ == "__main__":
-    transcribe_all_audio_files()
+    transcribe_all_audio_files(method="eleven_labs")

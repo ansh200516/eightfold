@@ -1,0 +1,10 @@
+{
+  "service": "groq_whisper",
+  "model": "whisper-large-v3",
+  "raw_text": " I, um, the lead dev actually wrote a library for that. I just used his transaction decorator.",
+  "text": "i um the lead dev actually wrote a library for that i just used his transaction decorator",
+  "audio_file": "../Evaluation set/audio/hyperion_2022_3.mp3",
+  "timestamp": "20250919_212815",
+  "language": "English",
+  "duration": 5.61
+}

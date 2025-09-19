@@ -1,35 +1,43 @@
 import os
+from dotenv import load_dotenv
+from io import BytesIO
+import requests
+from elevenlabs.client import ElevenLabs
 import re
 import json
-from datetime import datetime
 import logging
-from groq import Groq
-from dotenv import load_dotenv
+from datetime import datetime
 from utils import expand_contractions, convert_words_to_dict, convert_utterances_to_dict
+from dotenv import load_dotenv
 
 load_dotenv()
 
+# Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-groq_api_key = os.getenv("GROQ_API_KEY")
-client = Groq(api_key=groq_api_key)
+elevenlabs = ElevenLabs(
+  api_key=os.getenv("ELEVENLABS_API_KEY"),
+)
+
 
 def preprocess_text(text):
     """
     Preprocess text to remove punctuation (except apostrophes) and convert to lowercase.
-    This makes Groq output compatible with AssemblyAI format.
+    Preserves apostrophes for contraction expansion.
     """
     if not text:
         return text
     
     text = text.lower()
     
+    # Remove punctuation but preserve apostrophes for contraction expansion
     text = re.sub(r"[^\w\s]", "", text)
     
     text = re.sub(r'\s+', ' ', text).strip()
     
     return text
+
 
 def transcribe_audio(audio_file):
     """
@@ -37,16 +45,18 @@ def transcribe_audio(audio_file):
     """
     
     with open(audio_file, "rb") as file:
-        transcription = client.audio.transcriptions.create(
+        transcription = elevenlabs.speech_to_text.convert(
             file=(audio_file, file.read()),
-            model="whisper-large-v3",
-            response_format="verbose_json",
+            model_id="scribe_v1",
+            language_code="eng"
         )
     
     raw_text = transcription.text
     
+    # Step 1: Preprocess (remove punctuation except apostrophes, lowercase)
     preprocessed_text = preprocess_text(raw_text)
     
+    # Step 2: Expand contractions (needs apostrophes to work properly)
     # expansion_result = expand_contractions(preprocessed_text, use_spacy=True) if preprocessed_text else {
     #     "expanded_text": None, "method": None, "replacements": [], "original_text": None
     # }
@@ -55,14 +65,17 @@ def transcribe_audio(audio_file):
     # expansion_method = expansion_result["method"]
     # replacements_summary = expansion_result["replacements"]
     
+    # Step 3: Remove apostrophes for final submission format compliance
+    # final_text = remove_apostrophes(expanded_text)
+    
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     log_filename = f"../logs/transcript_{timestamp}.json"
     
     transcript_dict = {
-        "service": "groq_whisper",
-        "model": "whisper-large-v3",
+        "service": "eleven_labs",
+        "model": "scribe_v1",
         "raw_text": raw_text,
-        "text": preprocessed_text,  
+        "text": preprocessed_text,
         "audio_file": audio_file,
         "timestamp": timestamp,
         "language": getattr(transcription, 'language', None),
@@ -74,12 +87,13 @@ def transcribe_audio(audio_file):
     
     logger.info(f"Transcript logged to: {log_filename}")
     logger.info(f"Raw text: {raw_text}")
-    logger.info(f"text: {preprocessed_text}")
+    logger.info(f"Preprocessed text: {preprocessed_text}")
     
     return preprocessed_text
 
+
+
 if __name__ == "__main__":
-    filename = "../Evaluation set/audio/atlas_2025_3.mp3"
-    result = transcribe_audio(filename)
-    print(result)
-          
+    audio_file = "../Evaluation set/audio/atlas_2025_3.mp3"
+    transcription = transcribe_audio(audio_file)
+    print(transcription)

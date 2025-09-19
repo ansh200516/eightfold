@@ -1,0 +1,19 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "My proudest moment wasn't a feature I shipped. It was watching a junior engineer I mentored who was terrified of public speaking give a department-wide presentation on the benefits of our new microservices pattern. My job is to build great engineers, not just great software.",
+  "preprocessed_text": "my proudest moment wasn't a feature i shipped it was watching a junior engineer i mentored who was terrified of public speaking give a departmentwide presentation on the benefits of our new microservices pattern my job is to build great engineers not just great software",
+  "expanded_text": "my proudest moment was not a feature i shipped it was watching a junior engineer i mentored who was terrified of public speaking give a departmentwide presentation on the benefits of our new microservices pattern my job is to build great engineers not just great software",
+  "expansion_method": "heuristic",
+  "expansion_replacements_summary": [
+    {
+      "original": "wasn't",
+      "count": 1
+    }
+  ],
+  "text": "my proudest moment was not a feature i shipped it was watching a junior engineer i mentored who was terrified of public speaking give a departmentwide presentation on the benefits of our new microservices pattern my job is to build great engineers not just great software",
+  "audio_file": "../Evaluation set/audio/rhea_2024_4.mp3",
+  "timestamp": "20250919_204038",
+  "language": null,
+  "duration": null
+}

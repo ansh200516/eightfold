@@ -16,7 +16,6 @@ def transcribe_audio(audio_file):
 
   config = aai.TranscriptionConfig(
       punctuate=False,
-      speech_model=aai.SpeechModel.slam_1
   )
 
   transcript = aai.Transcriber(config=config).transcribe(audio_file)
@@ -29,10 +28,10 @@ def transcribe_audio(audio_file):
 
 
   original_text = getattr(transcript, 'text', None)
-  expansion_result = expand_contractions(original_text, use_spacy=True) if original_text else {"expanded_text": None, "method": None, "replacements": [], "original_text": None}
-  expanded_text = expansion_result["expanded_text"]
-  expansion_method = expansion_result["method"]
-  replacements_summary = expansion_result["replacements"]
+#   expansion_result = expand_contractions(original_text, use_spacy=True) if original_text else {"expanded_text": None, "method": None, "replacements": [], "original_text": None}
+#   expanded_text = expansion_result["expanded_text"]
+#   expansion_method = expansion_result["method"]
+#   replacements_summary = expansion_result["replacements"]
 
   transcript_dict = {
       "id": getattr(transcript, 'id', None),
@@ -42,11 +41,7 @@ def transcribe_audio(audio_file):
       "summarization": getattr(transcript, 'summarization', None),
       "language_code": getattr(transcript, 'language_code', None),
       "language_detection": getattr(transcript, 'language_detection', None),
-      "original_text": original_text,
-      "expanded_text": expanded_text,
-      "expansion_method": expansion_method,
-      "expansion_replacements_summary": replacements_summary,
-      "text": expanded_text,
+      "text": original_text,
       "words": convert_words_to_dict(getattr(transcript, 'words', None)),
       "utterances": convert_utterances_to_dict(getattr(transcript, 'utterances', None)),
       "audio_duration": getattr(transcript, 'audio_duration', None),
@@ -71,10 +66,8 @@ def transcribe_audio(audio_file):
   with open(log_filename, 'w', encoding='utf-8') as f:
       json.dump(transcript_dict, f, indent=2, ensure_ascii=False)
 
-  logger.info(f"Transcript logged to: {log_filename}")
-  logger.info(f"Expansion method used: {expansion_method}")
-  
-  return expanded_text
+  logger.info(f"Transcript logged to: {log_filename}")  
+  return original_text
 
 if __name__ == "__main__":
   audio_file = "../Evaluation set/audio/hyperion_2022_3.mp3"

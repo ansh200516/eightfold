@@ -1,0 +1,14 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Ah, yes, regarding the 'architected the entire solution' part on my resume. I should correct that wording. Architected is too strong. I was the architect of a specific component, the data ingestion service, within a larger architecture designed by our team lead.",
+  "preprocessed_text": "ah yes regarding the 'architected the entire solution' part on my resume i should correct that wording architected is too strong i was the architect of a specific component the data ingestion service within a larger architecture designed by our team lead",
+  "expanded_text": "ah yes regarding the 'architected the entire solution' part on my resume i should correct that wording architected is too strong i was the architect of a specific component the data ingestion service within a larger architecture designed by our team lead",
+  "expansion_method": "heuristic",
+  "expansion_replacements_summary": [],
+  "text": "ah yes regarding the 'architected the entire solution' part on my resume i should correct that wording architected is too strong i was the architect of a specific component the data ingestion service within a larger architecture designed by our team lead",
+  "audio_file": "../Evaluation set/audio/eos_2023_3.mp3",
+  "timestamp": "20250919_204016",
+  "language": null,
+  "duration": null
+}

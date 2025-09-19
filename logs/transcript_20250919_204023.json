@@ -1,0 +1,14 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "I wrote all the business logic. He just provided some, some infrastructure shell. It was my implementation.",
+  "preprocessed_text": "i wrote all the business logic he just provided some some infrastructure shell it was my implementation",
+  "expanded_text": "i wrote all the business logic he just provided some some infrastructure shell it was my implementation",
+  "expansion_method": "heuristic",
+  "expansion_replacements_summary": [],
+  "text": "i wrote all the business logic he just provided some some infrastructure shell it was my implementation",
+  "audio_file": "../Evaluation set/audio/hyperion_2022_4.mp3",
+  "timestamp": "20250919_204023",
+  "language": null,
+  "duration": null
+}

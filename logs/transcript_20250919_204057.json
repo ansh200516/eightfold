@@ -1,0 +1,19 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "I'm a seasoned Ruby on Rails developer, but my real passion is data. I'm proficient across the modern data stack, AI, machine learning, and big data. I'm ready to build your next predictive engine.",
+  "preprocessed_text": "i'm a seasoned ruby on rails developer but my real passion is data i'm proficient across the modern data stack ai machine learning and big data i'm ready to build your next predictive engine",
+  "expanded_text": "i am a seasoned ruby on rails developer but my real passion is data i am proficient across the modern data stack ai machine learning and big data i am ready to build your next predictive engine",
+  "expansion_method": "heuristic",
+  "expansion_replacements_summary": [
+    {
+      "original": "i'm",
+      "count": 3
+    }
+  ],
+  "text": "i am a seasoned ruby on rails developer but my real passion is data i am proficient across the modern data stack ai machine learning and big data i am ready to build your next predictive engine",
+  "audio_file": "../Evaluation set/audio/selene_2024_1.mp3",
+  "timestamp": "20250919_204057",
+  "language": null,
+  "duration": null
+}
