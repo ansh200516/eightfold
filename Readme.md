@@ -1,5 +1,7 @@
 # Truth Weaver - AI-Powered Interview Deception Detection System
 
+Link to repo: [https://github.com/ansh200516/eightfold]
+
 ## Team: Innov8
 
 This project implements an AI-powered system called "Truth Weaver" that analyzes interview transcripts to detect deception patterns, contradictory claims, and reveal the underlying truth about candidates' skills and experiences.
