@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "My design philosophy? Simple, fast and correct. In that order. We prototype quickly, we measure relentlessly, and we only add complexity when the data proves beyond a shadow of a doubt that it's necessary.",
+  "text": "my design philosophy simple fast and correct in that order we prototype quickly we measure relentlessly and we only add complexity when the data proves beyond a shadow of a doubt that its necessary",
+  "audio_file": "../Evaluation set/audio/oceanus_2022_4.mp3",
+  "timestamp": "20250919_221517",
+  "language": null,
+  "duration": null
+}

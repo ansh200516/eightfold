@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "I'm a seasoned DevOps engineer specializing in Kubernetes. For the past year, I've been in the trenches managing our production clusters, personally responsible for our entire networking and security posture.",
+  "text": "im a seasoned devops engineer specializing in kubernetes for the past year ive been in the trenches managing our production clusters personally responsible for our entire networking and security posture",
+  "audio_file": "../Evaluation set/audio/atlas_2025_1.mp3",
+  "timestamp": "20250919_220024",
+  "language": null,
+  "duration": null
+}

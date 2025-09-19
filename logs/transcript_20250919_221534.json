@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "A custom hook? Seriously, this is a pointless memorization exercise. In a real environment, my IDE writes this boilerplate for me. This is grunt work and it's frankly insulting.",
+  "text": "a custom hook seriously this is a pointless memorization exercise in a real environment my ide writes this boilerplate for me this is grunt work and its frankly insulting",
+  "audio_file": "../Evaluation set/audio/titan_2023_3.mp3",
+  "timestamp": "20250919_221534",
+  "language": null,
+  "duration": null
+}

@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "I architect systems, not tiny functions. Are you questioning my entire career over a trivial piece of code?",
+  "text": "i architect systems not tiny functions are you questioning my entire career over a trivial piece of code",
+  "audio_file": "../Evaluation set/audio/titan_2023_4.mp3",
+  "timestamp": "20250919_221535",
+  "language": null,
+  "duration": null
+}

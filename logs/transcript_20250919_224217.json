@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "You asked about Kafka. Let me tell you about the 3:00 AM outage where a poison pill message brought our entire payment system to its knees. It was a trial by fire, but by sunrise we had not only fixed it, but had re-architected the consumer logic with a dead letter queue to make sure it could never happen again. I love that struggle.",
+  "text": "you asked about kafka let me tell you about the 300 am outage where a poison pill message brought our entire payment system to its knees it was a trial by fire but by sunrise we had not only fixed it but had rearchitected the consumer logic with a dead letter queue to make sure it could never happen again i love that struggle",
+  "audio_file": "../Evaluation set/audio/rhea_2024_2.mp3",
+  "timestamp": "20250919_224217",
+  "language": null,
+  "duration": null
+}

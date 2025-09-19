@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Let's be clear. For seven years, I was the front-end department. The title was Lead Architect, but in reality, I was the visionary. I designed and built our entire micro front-end platform from scratch.",
+  "text": "lets be clear for seven years i was the frontend department the title was lead architect but in reality i was the visionary i designed and built our entire micro frontend platform from scratch",
+  "audio_file": "../Evaluation set/audio/titan_2023_1.mp3",
+  "timestamp": "20250919_221532",
+  "language": null,
+  "duration": null
+}

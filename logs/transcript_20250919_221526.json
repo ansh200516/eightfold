@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "I'm a seasoned Ruby on Rails developer, but my real passion is data. I'm proficient across the modern data stack, AI, machine learning, and big data. I'm ready to build your next predictive engine.",
+  "text": "im a seasoned ruby on rails developer but my real passion is data im proficient across the modern data stack ai machine learning and big data im ready to build your next predictive engine",
+  "audio_file": "../Evaluation set/audio/selene_2024_1.mp3",
+  "timestamp": "20250919_221526",
+  "language": null,
+  "duration": null
+}

@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Oh God, he's asking more data questions. I only took a weekend workshop on this stuff. I don't know any of it. Just ask me about Rails please, just ask me about Rails.",
+  "text": "oh god hes asking more data questions i only took a weekend workshop on this stuff i dont know any of it just ask me about rails please just ask me about rails",
+  "audio_file": "../Evaluation set/audio/selene_2024_5.mp3",
+  "timestamp": "20250919_224344",
+  "language": null,
+  "duration": null
+}

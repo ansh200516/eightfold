@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "While I'm proud of my service level design skills, my goal is to grow into that lead architect role. I want to learn more about the challenges of designing the seams between the services, not just the services themselves.",
+  "text": "while im proud of my service level design skills my goal is to grow into that lead architect role i want to learn more about the challenges of designing the seams between the services not just the services themselves",
+  "audio_file": "../Evaluation set/audio/eos_2023_5.mp3",
+  "timestamp": "20250919_221508",
+  "language": null,
+  "duration": null
+}

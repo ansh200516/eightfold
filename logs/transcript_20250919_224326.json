@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Look, fine. He designed the core architecture and the database schema. I wrote the code for it. I was the lead developer, not the architect. It was my code, but it was his system.",
+  "text": "look fine he designed the core architecture and the database schema i wrote the code for it i was the lead developer not the architect it was my code but it was his system",
+  "audio_file": "../Evaluation set/audio/hyperion_2022_5.mp3",
+  "timestamp": "20250919_224326",
+  "language": null,
+  "duration": null
+}

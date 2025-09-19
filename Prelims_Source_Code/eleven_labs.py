@@ -89,11 +89,11 @@ def transcribe_audio(audio_file):
     logger.info(f"Raw text: {raw_text}")
     logger.info(f"Preprocessed text: {preprocessed_text}")
     
-    return preprocessed_text
+    return raw_text
 
 
 
 if __name__ == "__main__":
-    audio_file = "../Evaluation set/audio/atlas_2025_3.mp3"
+    audio_file = "../Evaluation set/audio/hyperion_2022_3.mp3"
     transcription = transcribe_audio(audio_file)
     print(transcription)

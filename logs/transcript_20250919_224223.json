@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "\"Let's talk modeling. Whether it's a classification or regression problem, I'm comfortable deploying models using frameworks like TensorFlow or PyTorch. The entire pipeline, from ETL to inference, is in my wheelhouse.\"",
+  "text": "lets talk modeling whether its a classification or regression problem im comfortable deploying models using frameworks like tensorflow or pytorch the entire pipeline from etl to inference is in my wheelhouse",
+  "audio_file": "../Evaluation set/audio/selene_2024_2.mp3",
+  "timestamp": "20250919_224223",
+  "language": null,
+  "duration": null
+}

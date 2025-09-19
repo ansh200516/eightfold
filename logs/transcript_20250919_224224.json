@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "How would I handle class imbalance? That's a classic. You'd use over-sampling techniques like SMOTE, or you could use a different evaluation metric. It's a standard problem with a standard solution.",
+  "text": "how would i handle class imbalance thats a classic youd use oversampling techniques like smote or you could use a different evaluation metric its a standard problem with a standard solution",
+  "audio_file": "../Evaluation set/audio/selene_2024_3.mp3",
+  "timestamp": "20250919_224224",
+  "language": null,
+  "duration": null
+}

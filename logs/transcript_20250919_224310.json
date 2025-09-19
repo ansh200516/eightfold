@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Why Calico? Ha. What else would you use? It's the only serious choice for network policy enforcement at scale. I wrote all our policies from scratch to ensure total service isolation.",
+  "text": "why calico ha what else would you use its the only serious choice for network policy enforcement at scale i wrote all our policies from scratch to ensure total service isolation",
+  "audio_file": "../Evaluation set/audio/atlas_2025_2.mp3",
+  "timestamp": "20250919_224310",
+  "language": null,
+  "duration": null
+}

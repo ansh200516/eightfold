@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Okay, it was an internship, it was a summer internship, and I mostly just watched the senior engineers work. I ran some scripts they gave me. I'm not a DevOps engineer, I just wanna be one.",
+  "text": "okay it was an internship it was a summer internship and i mostly just watched the senior engineers work i ran some scripts they gave me im not a devops engineer i just wanna be one",
+  "audio_file": "../Evaluation set/audio/atlas_2025_5.mp3",
+  "timestamp": "20250919_220040",
+  "language": null,
+  "duration": null
+}

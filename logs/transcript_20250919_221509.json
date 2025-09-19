@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "When I started, there was nothing but an idea. I built my backend from the very first line of code. Every Django model, every Celery task, every database migration, that was all me. It's my creation.",
+  "text": "when i started there was nothing but an idea i built my backend from the very first line of code every django model every celery task every database migration that was all me its my creation",
+  "audio_file": "../Evaluation set/audio/hyperion_2022_1.mp3",
+  "timestamp": "20250919_221509",
+  "language": null,
+  "duration": null
+}

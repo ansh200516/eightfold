@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Performance is everything. We fight for every byte of memory and every clock cycle. That means custom memory allocators, kernel bypass networking, and a deep almost obsessive understanding of CPU cache behavior.",
+  "text": "performance is everything we fight for every byte of memory and every clock cycle that means custom memory allocators kernel bypass networking and a deep almost obsessive understanding of cpu cache behavior",
+  "audio_file": "../Evaluation set/audio/oceanus_2022_2.mp3",
+  "timestamp": "20250919_224210",
+  "language": null,
+  "duration": null
+}

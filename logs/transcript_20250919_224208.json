@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Good morning. I'm a C++ developer and manager with over a decade of experience, primarily in the pressure cooker of low-latency trading systems. My teams build software that measures its response time in nanoseconds.",
+  "text": "good morning im a c developer and manager with over a decade of experience primarily in the pressure cooker of lowlatency trading systems my teams build software that measures its response time in nanoseconds",
+  "audio_file": "../Evaluation set/audio/oceanus_2022_1.mp3",
+  "timestamp": "20250919_224208",
+  "language": null,
+  "duration": null
+}

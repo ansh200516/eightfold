@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "I'd, I'd check the logs. Then maybe the core DNS logs. I'd probably just restart the pod. That usually fixes things.",
+  "text": "id id check the logs then maybe the core dns logs id probably just restart the pod that usually fixes things",
+  "audio_file": "../Evaluation set/audio/atlas_2025_3.mp3",
+  "timestamp": "20250919_224311",
+  "language": null,
+  "duration": null
+}

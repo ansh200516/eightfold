@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Oh, oh God. They know. They know I'm a fraud. I'm not an architect. I'm a junior dev. I've only been there two years. I just wanted a better job.",
+  "text": "oh oh god they know they know im a fraud im not an architect im a junior dev ive only been there two years i just wanted a better job",
+  "audio_file": "../Evaluation set/audio/titan_2023_5.mp3",
+  "timestamp": "20250919_221536",
+  "language": null,
+  "duration": null
+}

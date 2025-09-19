@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Could I code a solution for that now? Well, no, not off the top of my head. I typically work with a data scientist who handles that part. My role is more about the big picture and the Rails integration.",
+  "text": "could i code a solution for that now well no not off the top of my head i typically work with a data scientist who handles that part my role is more about the big picture and the rails integration",
+  "audio_file": "../Evaluation set/audio/selene_2024_4.mp3",
+  "timestamp": "20250919_221530",
+  "language": null,
+  "duration": null
+}

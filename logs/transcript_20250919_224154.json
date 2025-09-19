@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "Okay, lead engineer might be the wrong term. I was a developer on the e-commerce team. My specific assigned area of responsibility was that small coupon code component.",
+  "text": "okay lead engineer might be the wrong term i was a developer on the ecommerce team my specific assigned area of responsibility was that small coupon code component",
+  "audio_file": "../Evaluation set/audio/crius_2025_5.mp3",
+  "timestamp": "20250919_224154",
+  "language": null,
+  "duration": null
+}

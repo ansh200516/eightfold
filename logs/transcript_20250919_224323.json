@@ -1,0 +1,10 @@
+{
+  "service": "eleven_labs",
+  "model": "scribe_v1",
+  "raw_text": "The most complex part? Taming celery. Anyone who's worked with it knows it's a beast. I'm the one who figured out how to make it reliable for our background job processing.",
+  "text": "the most complex part taming celery anyone whos worked with it knows its a beast im the one who figured out how to make it reliable for our background job processing",
+  "audio_file": "../Evaluation set/audio/hyperion_2022_2.mp3",
+  "timestamp": "20250919_224323",
+  "language": null,
+  "duration": null
+}
