@@ -1,0 +1,12 @@
+I am providing you 5 transcript json files of the 5 voice messages. transcript files has the following json structure.
+{
+  "service": "groq_whisper",
+  "model": "whisper-large-v3",
+  "raw_text": "I'd check the logs, then maybe the core DNS logs. I'd probably just restart the pod, that usually fixes things.",
+  "text": "id check the logs then maybe the core dns logs id probably just restart the pod that usually fixes things",
+  "audio_file": "../Evaluation set/audio/atlas_2025_3.mp3",
+  "timestamp": "20250919_213237",
+  "language": "English",
+  "duration": 7.28
+}
+This is a dummy data, do not consider it.
